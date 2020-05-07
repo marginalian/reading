@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/validator.rb'
+
+validator = Validator.new("./log.yml")
+validator.run
+
+validator.errors.each(&method(:puts))
+
+puts "----------"
+
+puts "Valid: #{validator.valid?}"
+puts "Count: #{validator.count}"
+

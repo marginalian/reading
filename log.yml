@@ -1,0 +1,2855 @@
+# genes id: epoch time
+# read: array of dates YYYY-MM-DD
+# title: string
+# author: string
+# genre: string
+# fiction: bool
+# rating: int =< 100
+# published: YYYY
+# collection: string
+# type: enum (book, essay, article, novel, novella, novelette, short story, flash fiction)
+# format: enum (physical, digital, audio)
+# link: string (URL)
+# tags: array of strings
+---
+entries:
+  - id: 1588638325
+    read: 2020-05-04
+    title: The Erdmann Nexus
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 97
+    published: 2008
+    collection: Fountain of Age
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - shared consciousness
+      - hiveminds
+
+  - id: 1588122818
+    read: 2020-04-28
+    title: A Voice From the Main Deck
+    author: Samuel Leech
+    genre: sailing
+    fiction: false
+    rating: 83
+    published: 1843
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - man-of-war
+      - tall ships
+      - war
+
+  - id: 1587954600
+    read: 2020-04-26
+    title: King of the Hill
+    author: Chad Oliver
+    genre: scifi
+    fiction: true
+    rating: 83
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - ecology
+      - animals
+      - genes
+
+  - id: 1587954539
+    read: 2020-04-26
+    title: Time Travel for Pedestrians
+    author: Ray Nelson
+    genre: scifi
+    fiction: true
+    rating: 80
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - time travel
+      - reincarnation
+
+  - id: 1587914834
+    read: 2020-04-26
+    title: Mathoms from the Time Closet
+    author: Gene Wolfe
+    genre: scifi
+    fiction: true
+    rating: 71
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - time travel
+
+  - id: 1587864603
+    read: 2020-04-25
+    title: Philosophy of Sailing
+    author: Christian Williams
+    genre: sailing
+    fiction: false
+    rating: 96
+    published: 2018
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - solo sailing
+      - pacific
+
+  - id: 1587736051
+    read: 2020-04-24
+    title: Swell
+    author: Liz Clark
+    genre: sailing
+    fiction: false
+    rating: 82
+    published: 2018
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - south pacific
+      - surfing
+      - shoestring
+
+  - id: 1587128962
+    read: 2020-04-17
+    title: Blown Away
+    author: Herb Payson
+    genre: sailing
+    fiction: false
+    rating: 91
+    published: 1980
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - south pacific
+      - cruising
+      - shoestring
+
+  - id: 1585956659
+    read: 2020-03-27
+    title: "Characters Great and Small in SF: Sisters"
+    author: Greg Bear
+    genre: on writing
+    fiction: false
+    rating: ~
+    published: 1996
+    collection: Paragons (ed. Robin Wilison)
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - character
+
+  - id: 1585956565
+    read: 2020-03-27
+    title: Sisters
+    author: Greg Bear
+    genre: scifi
+    fiction: true
+    rating: 90
+    published: 1989
+    collection: Paragons (ed. Robin Wilison)
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - gene-editing
+      - coming-of-age
+
+  - id: 1585146134
+    read: 2020-03-25
+    title: Making Monsters
+    author: James Patrick Kelly
+    genre: on writing
+    fiction: false
+    rating: ~
+    published: 1996
+    collection: Paragons (ed. Robin Wilison)
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - character
+      - plot
+
+  - id: 1585146345
+    read: 2020-03-24
+    title: Monsters
+    author: James Patrick Kelly
+    genre: scifi
+    fiction: true
+    rating: 92
+    published: 1992
+    collection: Paragons (ed. Robin Wilison)
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - redemption
+      - violence
+      - character
+
+  - id: 1584647703
+    read: 2020-03-18
+    title: When Breath Becomes Air
+    author: Paul Kalanithi
+    genre: autobiography
+    fiction: false
+    rating: 85
+    published: 2016
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags:
+      - neurosurgeon
+      - death
+      - medicine
+
+  - id: 1586698611
+    read: 2020-02-02
+    title: Seraffyn's European Adventure
+    author: Lin Pardey
+    genre: sailing
+    fiction: false
+    rating: 91
+    published: 1979
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - europe
+      - sailing
+
+  - id: 1586698611
+    read: 2020-01-06
+    title: Two on a Big Ocean
+    author: Hal Roth
+    genre: sailing
+    fiction: false
+    rating: 82
+    published: 1972
+    collection: Hal Roth Seafaring Trilogy
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - japan
+      - south pacific
+      - sailing
+
+  - id: 1588721400
+    read: 2019-12-11
+    title: Being Human
+    author: Edward G Kratz
+    genre: scifi
+    fiction: true
+    rating: 73.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721401
+    read: 2019-12-11
+    title: Bot and Paid For
+    author: Anatoly Belilovsky
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721402
+    read: 2019-12-11
+    title: The Diplomats
+    author: Tom Jolly
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721403
+    read: 2019-12-09
+    title: The Ghost Ship Anastasia
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721404
+    read: 2019-12-08
+    title: Meshed
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721405
+    read: 2019-12-08
+    title: Extraction Request
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721406
+    read: 2019-12-08
+    title: You Make Pattaya
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721407
+    read: 2019-12-06
+    title: Lingering
+    author: Christopher Stanley
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721408
+    read: 2019-12-05
+    title: Such Thoughts Are Unproductive
+    author: Rebecca Campbell
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: 2019
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721409
+    read: 2019-12-05
+    title: The Thing About Heisenbal
+    author: Stewart C Baker
+    genre: scifi
+    fiction: true
+    rating: 79.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721410
+    read: 2019-12-04
+    title: Eternity Ltd.
+    author: Carole de Monclin
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721411
+    read: 2019-12-04
+    title: Tenure
+    author: Andy Tubbesing
+    genre: scifi
+    fiction: true
+    rating: 87.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721412
+    read: 2019-12-04
+    title: A Bad Day in Utopia
+    author: Matthew Baker
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: 2019
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721413
+    read: 2019-12-02
+    title: Motherhood
+    author: Pat Murphy
+    genre: scifi
+    fiction: true
+    rating: 70.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721414
+    read: 2019-12-02
+    title: Njuzu
+    author: T. L. Huchu
+    genre: scifi
+    fiction: true
+    rating: 72.0
+    published: 2018
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721415
+    read: 2019-12-02
+    title: Today is Today
+    author: Rick Wilber
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: 2018
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721416
+    read: 2019-12-01
+    title: Chrysalis
+    author: Will Shadbolt
+    genre: scifi
+    fiction: true
+    rating: 70.0
+    published: 2019
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721417
+    read: 2019-12-01
+    title: The Prince of Space
+    author: Jack Williamson
+    genre: scifi
+    fiction: true
+    rating: 85.0
+    published: 1931
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721418
+    read: 2019-11-26
+    title: The Rec Field
+    author: Bill Pronzini
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: 1980
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721419
+    read: 2019-11-26
+    title: A Lingering Scent of Jasmine
+    author: Pat Murphy
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: 1980
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721420
+    read: 2019-11-24
+    title: The Star Stealers
+    author: Edmund Hamilton
+    genre: scifi
+    fiction: true
+    rating: 85.0
+    published: 1929
+    collection: ~
+    type: novelette
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721421
+    read: 2019-11-22
+    title: Telecorp
+    author: Kelly Kurtzhals Geiger
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721422
+    read: 2019-11-21
+    title: Alien Realization
+    author: Bruce Boston
+    genre: scifi
+    fiction: true
+    rating: 71.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721423
+    read: 2019-11-20
+    title: The Sky Didn't Load Today
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721424
+    read: 2019-11-20
+    title: Ghost Girl
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721425
+    read: 2019-11-19
+    title: The Nineteenth Hour
+    author: Connor R. Smith
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721426
+    read: 2019-11-18
+    title: Every So Often
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721427
+    read: 2019-11-18
+    title: Atrophy
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721428
+    read: 2019-11-17
+    title: Who Calls Me Villain?
+    author: John A. Corrick
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721429
+    read: 2019-11-16
+    title: The Wood for the Trees
+    author: Leanne Frahm
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721430
+    read: 2019-11-15
+    title: When the world tilts
+    author: Claire Leng
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721431
+    read: 2019-11-15
+    title: Kill the Umpire
+    author: Steve DuBois
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721432
+    read: 2019-11-13
+    title: The Quarantine Nursery
+    author: Aimee Ogden
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721433
+    read: 2019-11-13
+    title: The Movements of Other Star Fish
+    author: Matt Dovey
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721434
+    read: 2019-11-13
+    title: Empty Box
+    author: Allison Mulvihill
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721435
+    read: 2019-11-13
+    title: Solve for X
+    author: Jay Cole
+    genre: scifi
+    fiction: true
+    rating: 64.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721436
+    read: 2019-11-13
+    title: Follow Past Meridian
+    author: Mark W. Tiedemann
+    genre: scifi
+    fiction: true
+    rating: 75.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721437
+    read: 2019-11-12
+    title: Yamadori
+    author: Stephen R. Wilk
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721438
+    read: 2019-11-12
+    title: Sojourner
+    author: Craig DeLancey
+    genre: scifi
+    fiction: true
+    rating: 72.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721439
+    read: 2019-11-12
+    title: Auberon
+    author: James S.A. Corey
+    genre: scifi
+    fiction: true
+    rating: 98.0
+    published: ~
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721440
+    read: 2019-11-12
+    title: Binary
+    author: Edward Ashton
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721441
+    read: 2019-11-11
+    title: "+1"
+    author: James Luke Worrad
+    genre: scifi
+    fiction: true
+    rating: 87.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721442
+    read: 2019-11-11
+    title: Wolves
+    author: Edward Ashton
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721443
+    read: 2019-11-10
+    title: Filaments of Hope
+    author: Marissa Lingen
+    genre: scifi
+    fiction: true
+    rating: 68.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721444
+    read: 2019-11-08
+    title: Perfect Gun
+    author: Elizabeth Bear
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721445
+    read: 2019-11-08
+    title: Eros Pratfalled Or Adrift in the Cosmos With Lasagna and Mary Steenburgen
+    author: Adam-Troy Castro
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721446
+    read: 2019-11-08
+    title: Overburden
+    author: Genevieve Valentine
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721447
+    read: 2019-11-08
+    title: Her Appetite His Heart
+    author: Dominica Phetteplace
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721448
+    read: 2019-11-08
+    title: The Concubine's Heart
+    author: Matthew Bright
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721449
+    read: 2019-11-08
+    title: All That Robot Shit
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 95.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721450
+    read: 2019-11-07
+    title: In the Days of King Aris
+    author: Martin Harrison-Smith
+    genre: scifi
+    fiction: true
+    rating: 87.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721451
+    read: 2019-11-06
+    title: Antarctica
+    author: D.A. Xiaolin Spires
+    genre: scifi
+    fiction: true
+    rating: 66.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721452
+    read: 2019-11-06
+    title: Before and After
+    author: Alek Gearhart
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721453
+    read: 2019-11-05
+    title: The Spice of Life
+    author: Alexandra Grunberg
+    genre: scifi
+    fiction: true
+    rating: 56.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721454
+    read: 2019-11-04
+    title: Your Future is Pending
+    author: Matthew Kressel
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721455
+    read: 2019-11-04
+    title: The Death of Fire Station 10
+    author: Ray Nayler
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721456
+    read: 2019-11-03
+    title: Revival
+    author: WC Dunlap
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721457
+    read: 2019-11-03
+    title: Nesting Habits of Enceladan Jade Beetles
+    author: Eli Brown
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721458
+    read: 2019-11-02
+    title: The Beasts We Want To Be
+    author: Sam J. Miller
+    genre: scifi
+    fiction: true
+    rating: 87.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721459
+    read: 2019-11-01
+    title: Rabbit
+    author: Jeff Reynolds
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721460
+    read: 2019-10-31
+    title: Song Xiuyun
+    author: A Que
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: novelette
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721461
+    read: 2019-10-30
+    title: National Center for the Preservation of Human Dignity
+    author: Youha Nam
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721462
+    read: 2019-10-30
+    title: An Arc of Lightnig Across the Eye of God
+    author: P H Lee
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721463
+    read: 2019-10-29
+    title: All the Days We Can't Leave Behind
+    author: Wendy Nikel
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721464
+    read: 2019-10-29
+    title: The Singularity Loves You
+    author: Jonathon Mast
+    genre: scifi
+    fiction: true
+    rating: 57.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721465
+    read: 2019-10-28
+    title: Quantum Theory
+    author: James Gunn
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721466
+    read: 2019-10-28
+    title: Inside the Body of Relatives
+    author: Octavia Cade
+    genre: scifi
+    fiction: true
+    rating: 95.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721467
+    read: 2019-10-28
+    title: Cloud
+    author: Michael Swanwick
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721468
+    read: 2019-10-27
+    title: The Disintegration Loops
+    author: Ray Nayler
+    genre: scifi
+    fiction: true
+    rating: 86.0
+    published: ~
+    collection: ~
+    type: novelette
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721469
+    read: 2019-10-27
+    title: The Airwalker Comes to the City in Green
+    author: Siobhan Carroll
+    genre: scifi
+    fiction: true
+    rating: 66.0
+    published: ~
+    collection: ~
+    type: novelette
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721470
+    read: 2019-10-26
+    title: Surfers at the End of Time
+    author: Rudy Rucker and Marc Laidlaw
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721471
+    read: 2019-10-25
+    title: Lindsay and the Red City Blues
+    author: Joe Haldeman
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721472
+    read: 2019-10-25
+    title: Weaving Light from Wounded Hearts
+    author: J.W. Alden
+    genre: scifi
+    fiction: true
+    rating: 64.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721473
+    read: 2019-10-25
+    title: Plot Holes
+    author: Eric Margerum
+    genre: scifi
+    fiction: true
+    rating: 69.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721474
+    read: 2019-10-25
+    title: 'Death for the Cure: A Comedy About Cancer'
+    author: Larry Hodges
+    genre: scifi
+    fiction: true
+    rating: 40.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721475
+    read: 2019-10-24
+    title: Feigenbaum Number
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 99.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721476
+    read: 2019-10-24
+    title: 'Why Humans Can''t Write Fiction: A Review'
+    author: Jon Lasser
+    genre: scifi
+    fiction: true
+    rating: 66.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721477
+    read: 2019-10-24
+    title: Empire of the Moment
+    author: Alexander Condie
+    genre: scifi
+    fiction: true
+    rating: 72.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721478
+    read: 2019-10-24
+    title: We Who Flee the Sun
+    author: Sean Patrick Hazlett
+    genre: scifi
+    fiction: true
+    rating: 36.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721479
+    read: 2019-10-23
+    title: The Shapeshifter Unraveled
+    author: S. Qiouyi Lu
+    genre: scifi
+    fiction: true
+    rating: 66.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721480
+    read: 2019-10-22
+    title: We're Talking About Practice
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 95.0
+    published: ~
+    collection: ~
+    type: flash_fiction
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721481
+    read: 2019-10-14
+    title: All Electric Ghosts
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721482
+    read: 2019-10-13
+    title: The Artifact
+    author: Sherry Briggs
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721483
+    read: 2019-10-08
+    title: The Star-Filled Sea is Smooth Tonight
+    author: Thomas F. Monteleone
+    genre: scifi
+    fiction: true
+    rating: 98.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721484
+    read: 2019-09-28
+    title: Bus Station
+    author: William Earls
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721485
+    read: 2019-09-28
+    title: The Word Random Deliberately Repeated
+    author: John Shirley
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721486
+    read: 2019-09-28
+    title: The Tear Drop
+    author: Dvora Olmstead
+    genre: scifi
+    fiction: true
+    rating: 70.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721487
+    read: 2019-09-28
+    title: Asclepius Has Paws
+    author: Mildred Downey Broxon
+    genre: scifi
+    fiction: true
+    rating: 92.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721488
+    read: 2019-09-27
+    title: 'Everybody Loves: In Circular Motion'
+    author: Mel Gilden
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721489
+    read: 2019-09-26
+    title: Road Map
+    author: F. M. Busby
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721490
+    read: 2019-09-01
+    title: Chitai Heiki Koronbin
+    author: David Moles
+    genre: scifi
+    fiction: true
+    rating: 62.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721491
+    read: 2019-08-31
+    title: Old Paint
+    author: Megan Lindholm
+    genre: scifi
+    fiction: true
+    rating: 92.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721492
+    read: 2019-08-30
+    title: What Did Tessimond Tell You?
+    author: Adam Roberts
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721493
+    read: 2019-08-29
+    title: Astrophilia
+    author: Carrie Vaughn
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721494
+    read: 2019-07-15
+    title: The Big Pat Boom
+    author: Damon Knight
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721495
+    read: 2019-07-15
+    title: Semper Fi
+    author: Damon Knight
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721496
+    read: 2019-07-10
+    title: Division by Zero
+    author: Ted Chiang
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721497
+    read: 2019-06-18
+    title: Understand
+    author: Ted Chiang
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721498
+    read: 2019-06-14
+    title: Tiny Tango
+    author: Judith Moffett
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721499
+    read: 2019-06-13
+    title: Tower of Babylon
+    author: Ted Chiang
+    genre: scifi
+    fiction: true
+    rating: 85.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721500
+    read: 2019-06-11
+    title: The Intertidal Zone
+    author: Rahul Kanakia
+    genre: scifi
+    fiction: true
+    rating: 69.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721501
+    read: 2019-06-10
+    title: Not Only Who You Know
+    author: Jay  O'Connell
+    genre: scifi
+    fiction: true
+    rating: 74.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721502
+    read: 2019-01-04
+    title: Tamales in Space and Other Phrases for the Beginning Speaker
+    author: Gabriela Santiago
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721503
+    read: 2019-01-04
+    title: Human Pilots
+    author: J. B. Park
+    genre: scifi
+    fiction: true
+    rating: 79.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721504
+    read: 2019-01-04
+    title: These Constellations Will Be Yours
+    author: Elaine Cuyegkeng
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721505
+    read: 2018-12-12
+    title: Quantum Coursework
+    author: Marcus Holm
+    genre: scifi
+    fiction: true
+    rating: 71.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721506
+    read: 2018-12-11
+    title: Demeter's Regard
+    author: Deborah L. Davitt
+    genre: scifi
+    fiction: true
+    rating: 95.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721507
+    read: 2018-12-11
+    title: Floaters Can't Float
+    author: Pip Coen
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721508
+    read: 2018-12-09
+    title: Skychildren
+    author: C.L. Kagmi
+    genre: scifi
+    fiction: true
+    rating: 85.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721509
+    read: 2018-12-09
+    title: White Dust
+    author: Nathan Hillstrom
+    genre: scifi
+    fiction: true
+    rating: 93.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721510
+    read: 2018-12-07
+    title: Entangled
+    author: Lars H. Hoffmann
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721511
+    read: 2018-12-07
+    title: X and Y
+    author: Lynn Kilmore
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721512
+    read: 2018-12-05
+    title: The Little Gods
+    author: Jamie Wahls
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721513
+    read: 2018-12-05
+    title: Down and Out
+    author: Ken Wharton
+    genre: scifi
+    fiction: true
+    rating: 92.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721514
+    read: 2018-12-05
+    title: Tav
+    author: Dustin Kennedy
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721515
+    read: 2018-12-04
+    title: All That Is Solid
+    author: Chris Barnham
+    genre: scifi
+    fiction: true
+    rating: 66.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721516
+    read: 2018-12-04
+    title: We Are Destroyers
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721517
+    read: 2018-12-04
+    title: TrashureIsland
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 99.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721518
+    read: 2018-12-04
+    title: The Undertow Jackpot
+    author: Karl El-Koura
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721519
+    read: 2018-12-04
+    title: They Breed Like Flies
+    author: Jeff Walden
+    genre: scifi
+    fiction: true
+    rating: 83.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721520
+    read: 2018-12-02
+    title: Lord Randy My Son
+    author: Joe L. Hensley
+    genre: scifi
+    fiction: true
+    rating: 83.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721521
+    read: 2018-12-02
+    title: Intent to Occupy
+    author: Ronald D. Ferguson
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721522
+    read: 2018-12-02
+    title: The Law of Diminishing Returns
+    author: Dominic Teague
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721523
+    read: 2018-12-02
+    title: Oelinium
+    author: Steve Rodgers
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721524
+    read: 2018-12-02
+    title: Crinkles
+    author: Michael Ryder
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721525
+    read: 2018-12-02
+    title: Seeds of War
+    author: Tommi Virtanen
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721526
+    read: 2018-12-02
+    title: Personal Trainer
+    author: Meg Elison
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721527
+    read: 2018-12-02
+    title: Twiceborn
+    author: C.L. Kagmi
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721528
+    read: 2018-11-28
+    title: The Jigsaw Man
+    author: Larry Niven
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721529
+    read: 2018-11-28
+    title: The Man Who Went to the Moon—Twice
+    author: Howard Rodman
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721531
+    read: 2018-11-28
+    title: Pregnancy as a Location in Space-Time
+    author: David Ebenbach
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721532
+    read: 2018-11-28
+    title: Theories of Flight
+    author: Linda Nagata
+    genre: scifi
+    fiction: true
+    rating: 85.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721533
+    read: 2018-11-28
+    title: Incident at San Juan Bautista
+    author: Ray Nayler
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721534
+    read: 2018-11-28
+    title: What I Am
+    author: William Ledbetter
+    genre: scifi
+    fiction: true
+    rating: 86.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588045158
+    read: 2018-11-27
+    title: The Art of Failure
+    author: Robert Dawson
+    genre: scifi
+    fiction: true
+    rating: 73
+    published: 2016
+    collection: Compelling Science Fiction Issue 1
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1588045159
+    read: 2018-11-27
+    title: Opportunities for Lost Children
+    author: James Beamon
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2016
+    collection: Compelling Science Fiction Issue 1
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1588045160
+    read: 2018-11-27
+    title: Mean and Clean
+    author: Marie DesJardin
+    genre: scifi
+    fiction: true
+    rating: 96
+    published: 2016
+    collection: Compelling Science Fiction Issue 1
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - prismatic
+      - break-neck
+
+  - id: 1588045161
+    read: 2018-11-27
+    title: Reflection
+    author: Aaron Wright
+    genre: scifi
+    fiction: true
+    rating: 72
+    published: 2016
+    collection: Compelling Science Fiction Issue 1
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1588045163
+    read: 2018-11-27
+    title: Gaia's Children
+    author: Lawrence Buentello
+    genre: scifi
+    fiction: true
+    rating: 65
+    published: 2016
+    collection: Compelling Science Fiction Issue 1
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1588721539
+    read: 2018-11-24
+    title: Evensong
+    author: Lester del Rey
+    genre: scifi
+    fiction: true
+    rating: 75.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1586955496
+    read: 2018-08-19
+    title: Blue Water, Green Skipper
+    author: Stuart Woods
+    genre: sailing
+    fiction: false
+    rating: 88
+    published: 1977
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - england
+    - racing
+    - sailing
+
+
+  - id: 1588721540
+    read: 2018-03-25
+    title: The Island
+    author: Peter Watts
+    genre: scifi
+    fiction: true
+    rating: 95.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721541
+    read: 2018-03-25
+    title: Utriusque Cosmi
+    author: Robert Charles Wilson
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721542
+    read: 2018-01-25
+    title: Star Diaries
+    author: Stanislaw Lem
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721543
+    read: 2018-01-20
+    title: Solaris
+    author: Stanislaw Lem
+    genre: scifi
+    fiction: true
+    rating: 92.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721544
+    read: 2018-01-17
+    title: The Futurological Congress
+    author: Stanislaw Lem
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721545
+    read: 2017-12-31
+    title: The Frost Giant's Data
+    author: Dan Abnett
+    genre: scifi
+    fiction: true
+    rating: 73.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721546
+    read: 2017-12-31
+    title: A Temporary Embarrassment in Space Time
+    author: Charlie Jane Anders
+    genre: scifi
+    fiction: true
+    rating: 76.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721547
+    read: 2017-12-31
+    title: Maelstrom
+    author: Kage Baker
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721548
+    read: 2017-12-31
+    title: Rememberance
+    author: Stephen Baxter
+    genre: scifi
+    fiction: true
+    rating: 91.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721549
+    read: 2017-12-31
+    title: Zen and the Art of Starship Maintainence
+    author: Tobias Buckell
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721550
+    read: 2017-12-31
+    title: Wakening Ouroboros
+    author: Jack Campbell
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721551
+    read: 2017-12-31
+    title: Unfamiliar Gods
+    author: Adam-Troy Castro
+    genre: scifi
+    fiction: true
+    rating: 80.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721552
+    read: 2017-12-31
+    title: The Deckhand The Nova Blade And The Thrice-Sung Song
+    author: Becky Chambers
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721553
+    read: 2017-12-31
+    title: The Fish of Lijiang
+    author: Qiufan Chen
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721554
+    read: 2017-12-31
+    title: The Flower of Shazui
+    author: Qiufan Chen
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721555
+    read: 2017-12-31
+    title: The Year of the Rat
+    author: Qiufan Chen
+    genre: scifi
+    fiction: true
+    rating: 86.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721556
+    read: 2017-12-31
+    title: The Dragon That Flew Out of the Sun
+    author: Aliette de Bodard
+    genre: scifi
+    fiction: true
+    rating: 81.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721557
+    read: 2017-12-31
+    title: Glory
+    author: Greg Egan
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721558
+    read: 2017-12-31
+    title: Our speciality is Xenogeology
+    author: Alan Dean Foster
+    genre: scifi
+    fiction: true
+    rating: 77.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721559
+    read: 2017-12-31
+    title: Inifinite Love Engine
+    author: Joseph Allen Hill
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721560
+    read: 2017-12-31
+    title: The Universe Sung in Stars
+    author: Kat Howard
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721561
+    read: 2017-12-31
+    title: Warped Passages
+    author: Kameron Hurley
+    genre: scifi
+    fiction: true
+    rating: 84.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721562
+    read: 2017-12-31
+    title: Tong Tong's Summer
+    author: Xia Jia
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721563
+    read: 2017-12-31
+    title: A Hundred Ghosts Parade Tonight
+    author: Xia Jia
+    genre: scifi
+    fiction: true
+    rating: 86.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721564
+    read: 2017-12-31
+    title: The Sighted Watchmaker
+    author: Vylar Kaftan
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721565
+    read: 2017-12-31
+    title: The Lathe of HEaven
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 89.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721566
+    read: 2017-12-31
+    title: The Chameleon's Gloves
+    author: Yoon Ha Lee
+    genre: scifi
+    fiction: true
+    rating: 79.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721567
+    read: 2017-12-31
+    title: Death's End
+    author: Cixin Liu
+    genre: scifi
+    fiction: true
+    rating: 100.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721568
+    read: 2017-12-31
+    title: Three-Body Problem
+    author: Cixin Liu
+    genre: scifi
+    fiction: true
+    rating: 99.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721569
+    read: 2017-12-31
+    title: The Dark Forest
+    author: Cixin Liu
+    genre: scifi
+    fiction: true
+    rating: 98.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721570
+    read: 2017-12-31
+    title: Bring the Kids and Revisit the Past at the Traveling Retro Funfair!
+    author: Seanan McGuire
+    genre: scifi
+    fiction: true
+    rating: 68.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721571
+    read: 2017-12-31
+    title: Who's Afraid of Wolf 359?
+    author: Ken McLeod
+    genre: scifi
+    fiction: true
+    rating: 98.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721572
+    read: 2017-12-31
+    title: Diamond and the World Breaker
+    author: Linda Nagata
+    genre: scifi
+    fiction: true
+    rating: 71.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721573
+    read: 2017-12-31
+    title: Turquoise Days
+    author: Alastair Reynolds
+    genre: scifi
+    fiction: true
+    rating: 90.0
+    published: ~
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721574
+    read: 2017-12-31
+    title: Diamond Dogs
+    author: Alastair Reynolds
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: ~
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721575
+    read: 2017-12-31
+    title: Tomorrow When We See the Sun
+    author: A. Merc Rustad
+    genre: scifi
+    fiction: true
+    rating: 92.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721576
+    read: 2017-12-31
+    title: Golden Ring
+    author: Karl Schroeder
+    genre: scifi
+    fiction: true
+    rating: 94.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721577
+    read: 2017-12-31
+    title: The Emperor and the Maula
+    author: Robert Silverberg
+    genre: scifi
+    fiction: true
+    rating: 97.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721578
+    read: 2017-12-31
+    title: True Names
+    author: Vernor Vinge
+    genre: scifi
+    fiction: true
+    rating: 88.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721579
+    read: 2017-12-31
+    title: Seven Wonders of a Once and Future World
+    author: Caroline M. Yoachim
+    genre: scifi
+    fiction: true
+    rating: 99.0
+    published: ~
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721580
+    read: 2016-12-31
+    title: A Closed and Common Orbit
+    author: Becky Chambers
+    genre: scifi
+    fiction: true
+    rating: 96.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721581
+    read: 2016-12-31
+    title: To Your Scattered Bodies Go
+    author: Philip Jose Farmer
+    genre: scifi
+    fiction: true
+    rating: 78.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721582
+    read: 2016-12-31
+    title: Rainbow's End
+    author: Vernor Vinge
+    genre: scifi
+    fiction: true
+    rating: 98.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1588721583
+    read: 2016-12-31
+    title: Bridge of Ashes
+    author: Roger Zelazny
+    genre: scifi
+    fiction: true
+    rating: 82.0
+    published: ~
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
