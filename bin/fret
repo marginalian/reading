@@ -2,7 +2,7 @@
 
 require_relative '../lib/validator.rb'
 
-validator = Validator.new("./log.yml")
+validator = Validator.new("./data.yml")
 validator.run
 
 validator.errors.each(&method(:puts))

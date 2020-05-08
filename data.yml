@@ -13,6 +13,38 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1588855492
+    read: 2020-05-06
+    title: By Fools Like Me
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 96
+    published: 2007
+    collection: Fountain of Age
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - climate
+      - apocalypse
+
+  - id: 1588855491
+    read: 2020-05-05
+    title: The Kindness of Strangers
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 90
+    published: 2008
+    collection: Fountain of Age
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - invasion
+
   - id: 1588638325
     read: 2020-05-04
     title: The Erdmann Nexus
@@ -264,7 +296,7 @@ entries:
     author: Edward G Kratz
     genre: scifi
     fiction: true
-    rating: 73.0
+    rating: 73
     published: 2019
     collection: ~
     type: flash_fiction
@@ -278,7 +310,7 @@ entries:
     author: Anatoly Belilovsky
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: 2019
     collection: ~
     type: flash_fiction
@@ -292,7 +324,7 @@ entries:
     author: Tom Jolly
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: 2019
     collection: ~
     type: flash_fiction
@@ -306,7 +338,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -320,7 +352,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: ~
     collection: ~
     type: short_story
@@ -334,7 +366,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: short_story
@@ -348,7 +380,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: short_story
@@ -362,7 +394,7 @@ entries:
     author: Christopher Stanley
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: 2019
     collection: ~
     type: flash_fiction
@@ -376,7 +408,7 @@ entries:
     author: Rebecca Campbell
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: 2019
     collection: ~
     type: short_story
@@ -390,7 +422,7 @@ entries:
     author: Stewart C Baker
     genre: scifi
     fiction: true
-    rating: 79.0
+    rating: 79
     published: 2019
     collection: ~
     type: flash_fiction
@@ -404,7 +436,7 @@ entries:
     author: Carole de Monclin
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: 2019
     collection: ~
     type: flash_fiction
@@ -418,7 +450,7 @@ entries:
     author: Andy Tubbesing
     genre: scifi
     fiction: true
-    rating: 87.0
+    rating: 87
     published: 2019
     collection: ~
     type: flash_fiction
@@ -432,7 +464,7 @@ entries:
     author: Matthew Baker
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: 2019
     collection: ~
     type: short_story
@@ -446,7 +478,7 @@ entries:
     author: Pat Murphy
     genre: scifi
     fiction: true
-    rating: 70.0
+    rating: 70
     published: 2019
     collection: ~
     type: flash_fiction
@@ -460,7 +492,7 @@ entries:
     author: T. L. Huchu
     genre: scifi
     fiction: true
-    rating: 72.0
+    rating: 72
     published: 2018
     collection: ~
     type: short_story
@@ -474,7 +506,7 @@ entries:
     author: Rick Wilber
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: 2018
     collection: ~
     type: short_story
@@ -488,7 +520,7 @@ entries:
     author: Will Shadbolt
     genre: scifi
     fiction: true
-    rating: 70.0
+    rating: 70
     published: 2019
     collection: ~
     type: flash_fiction
@@ -502,7 +534,7 @@ entries:
     author: Jack Williamson
     genre: scifi
     fiction: true
-    rating: 85.0
+    rating: 85
     published: 1931
     collection: ~
     type: novella
@@ -516,7 +548,7 @@ entries:
     author: Bill Pronzini
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: 1980
     collection: ~
     type: short_story
@@ -530,7 +562,7 @@ entries:
     author: Pat Murphy
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: 1980
     collection: ~
     type: short_story
@@ -544,7 +576,7 @@ entries:
     author: Edmund Hamilton
     genre: scifi
     fiction: true
-    rating: 85.0
+    rating: 85
     published: 1929
     collection: ~
     type: novelette
@@ -558,7 +590,7 @@ entries:
     author: Kelly Kurtzhals Geiger
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: flash_fiction
@@ -572,7 +604,7 @@ entries:
     author: Bruce Boston
     genre: scifi
     fiction: true
-    rating: 71.0
+    rating: 71
     published: ~
     collection: ~
     type: flash_fiction
@@ -586,7 +618,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: flash_fiction
@@ -600,7 +632,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: short_story
@@ -614,7 +646,7 @@ entries:
     author: Connor R. Smith
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: flash_fiction
@@ -628,7 +660,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: short_story
@@ -642,7 +674,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: short_story
@@ -656,7 +688,7 @@ entries:
     author: John A. Corrick
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -670,7 +702,7 @@ entries:
     author: Leanne Frahm
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -684,7 +716,7 @@ entries:
     author: Claire Leng
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: flash_fiction
@@ -698,7 +730,7 @@ entries:
     author: Steve DuBois
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: flash_fiction
@@ -712,7 +744,7 @@ entries:
     author: Aimee Ogden
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -726,7 +758,7 @@ entries:
     author: Matt Dovey
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: flash_fiction
@@ -740,7 +772,7 @@ entries:
     author: Allison Mulvihill
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -754,7 +786,7 @@ entries:
     author: Jay Cole
     genre: scifi
     fiction: true
-    rating: 64.0
+    rating: 64
     published: ~
     collection: ~
     type: short_story
@@ -768,7 +800,7 @@ entries:
     author: Mark W. Tiedemann
     genre: scifi
     fiction: true
-    rating: 75.0
+    rating: 75
     published: ~
     collection: ~
     type: short_story
@@ -782,7 +814,7 @@ entries:
     author: Stephen R. Wilk
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: ~
     collection: ~
     type: short_story
@@ -796,7 +828,7 @@ entries:
     author: Craig DeLancey
     genre: scifi
     fiction: true
-    rating: 72.0
+    rating: 72
     published: ~
     collection: ~
     type: short_story
@@ -810,7 +842,7 @@ entries:
     author: James S.A. Corey
     genre: scifi
     fiction: true
-    rating: 98.0
+    rating: 98
     published: ~
     collection: ~
     type: novella
@@ -824,7 +856,7 @@ entries:
     author: Edward Ashton
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: short_story
@@ -838,7 +870,7 @@ entries:
     author: James Luke Worrad
     genre: scifi
     fiction: true
-    rating: 87.0
+    rating: 87
     published: ~
     collection: ~
     type: flash_fiction
@@ -852,7 +884,7 @@ entries:
     author: Edward Ashton
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: short_story
@@ -866,7 +898,7 @@ entries:
     author: Marissa Lingen
     genre: scifi
     fiction: true
-    rating: 68.0
+    rating: 68
     published: ~
     collection: ~
     type: short_story
@@ -880,7 +912,7 @@ entries:
     author: Elizabeth Bear
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -894,7 +926,7 @@ entries:
     author: Adam-Troy Castro
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -908,7 +940,7 @@ entries:
     author: Genevieve Valentine
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: short_story
@@ -922,7 +954,7 @@ entries:
     author: Dominica Phetteplace
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -936,7 +968,7 @@ entries:
     author: Matthew Bright
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: short_story
@@ -950,7 +982,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 95.0
+    rating: 95
     published: ~
     collection: ~
     type: short_story
@@ -964,7 +996,7 @@ entries:
     author: Martin Harrison-Smith
     genre: scifi
     fiction: true
-    rating: 87.0
+    rating: 87
     published: ~
     collection: ~
     type: flash_fiction
@@ -978,7 +1010,7 @@ entries:
     author: D.A. Xiaolin Spires
     genre: scifi
     fiction: true
-    rating: 66.0
+    rating: 66
     published: ~
     collection: ~
     type: short_story
@@ -992,7 +1024,7 @@ entries:
     author: Alek Gearhart
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: flash_fiction
@@ -1006,7 +1038,7 @@ entries:
     author: Alexandra Grunberg
     genre: scifi
     fiction: true
-    rating: 56.0
+    rating: 56
     published: ~
     collection: ~
     type: flash_fiction
@@ -1020,7 +1052,7 @@ entries:
     author: Matthew Kressel
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: ~
     collection: ~
     type: short_story
@@ -1034,7 +1066,7 @@ entries:
     author: Ray Nayler
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: short_story
@@ -1048,7 +1080,7 @@ entries:
     author: WC Dunlap
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: short_story
@@ -1062,7 +1094,7 @@ entries:
     author: Eli Brown
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -1076,7 +1108,7 @@ entries:
     author: Sam J. Miller
     genre: scifi
     fiction: true
-    rating: 87.0
+    rating: 87
     published: ~
     collection: ~
     type: short_story
@@ -1090,7 +1122,7 @@ entries:
     author: Jeff Reynolds
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: flash_fiction
@@ -1104,7 +1136,7 @@ entries:
     author: A Que
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: novelette
@@ -1118,7 +1150,7 @@ entries:
     author: Youha Nam
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: short_story
@@ -1132,7 +1164,7 @@ entries:
     author: P H Lee
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -1146,7 +1178,7 @@ entries:
     author: Wendy Nikel
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: flash_fiction
@@ -1160,7 +1192,7 @@ entries:
     author: Jonathon Mast
     genre: scifi
     fiction: true
-    rating: 57.0
+    rating: 57
     published: ~
     collection: ~
     type: flash_fiction
@@ -1174,7 +1206,7 @@ entries:
     author: James Gunn
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: short_story
@@ -1188,7 +1220,7 @@ entries:
     author: Octavia Cade
     genre: scifi
     fiction: true
-    rating: 95.0
+    rating: 95
     published: ~
     collection: ~
     type: short_story
@@ -1202,7 +1234,7 @@ entries:
     author: Michael Swanwick
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -1216,7 +1248,7 @@ entries:
     author: Ray Nayler
     genre: scifi
     fiction: true
-    rating: 86.0
+    rating: 86
     published: ~
     collection: ~
     type: novelette
@@ -1230,7 +1262,7 @@ entries:
     author: Siobhan Carroll
     genre: scifi
     fiction: true
-    rating: 66.0
+    rating: 66
     published: ~
     collection: ~
     type: novelette
@@ -1244,7 +1276,7 @@ entries:
     author: Rudy Rucker and Marc Laidlaw
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: novella
@@ -1258,7 +1290,7 @@ entries:
     author: Joe Haldeman
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -1272,7 +1304,7 @@ entries:
     author: J.W. Alden
     genre: scifi
     fiction: true
-    rating: 64.0
+    rating: 64
     published: ~
     collection: ~
     type: flash_fiction
@@ -1286,7 +1318,7 @@ entries:
     author: Eric Margerum
     genre: scifi
     fiction: true
-    rating: 69.0
+    rating: 69
     published: ~
     collection: ~
     type: short_story
@@ -1300,7 +1332,7 @@ entries:
     author: Larry Hodges
     genre: scifi
     fiction: true
-    rating: 40.0
+    rating: 40
     published: ~
     collection: ~
     type: short_story
@@ -1314,7 +1346,7 @@ entries:
     author: Nancy Kress
     genre: scifi
     fiction: true
-    rating: 99.0
+    rating: 99
     published: ~
     collection: ~
     type: short_story
@@ -1328,7 +1360,7 @@ entries:
     author: Jon Lasser
     genre: scifi
     fiction: true
-    rating: 66.0
+    rating: 66
     published: ~
     collection: ~
     type: flash_fiction
@@ -1342,7 +1374,7 @@ entries:
     author: Alexander Condie
     genre: scifi
     fiction: true
-    rating: 72.0
+    rating: 72
     published: ~
     collection: ~
     type: flash_fiction
@@ -1356,7 +1388,7 @@ entries:
     author: Sean Patrick Hazlett
     genre: scifi
     fiction: true
-    rating: 36.0
+    rating: 36
     published: ~
     collection: ~
     type: short_story
@@ -1370,7 +1402,7 @@ entries:
     author: S. Qiouyi Lu
     genre: scifi
     fiction: true
-    rating: 66.0
+    rating: 66
     published: ~
     collection: ~
     type: flash_fiction
@@ -1384,7 +1416,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 95.0
+    rating: 95
     published: ~
     collection: ~
     type: flash_fiction
@@ -1398,7 +1430,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -1412,7 +1444,7 @@ entries:
     author: Sherry Briggs
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -1426,7 +1458,7 @@ entries:
     author: Thomas F. Monteleone
     genre: scifi
     fiction: true
-    rating: 98.0
+    rating: 98
     published: ~
     collection: ~
     type: short_story
@@ -1440,7 +1472,7 @@ entries:
     author: William Earls
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: short_story
@@ -1454,7 +1486,7 @@ entries:
     author: John Shirley
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -1468,7 +1500,7 @@ entries:
     author: Dvora Olmstead
     genre: scifi
     fiction: true
-    rating: 70.0
+    rating: 70
     published: ~
     collection: ~
     type: short_story
@@ -1482,7 +1514,7 @@ entries:
     author: Mildred Downey Broxon
     genre: scifi
     fiction: true
-    rating: 92.0
+    rating: 92
     published: ~
     collection: ~
     type: short_story
@@ -1496,7 +1528,7 @@ entries:
     author: Mel Gilden
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: short_story
@@ -1510,7 +1542,7 @@ entries:
     author: F. M. Busby
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -1524,7 +1556,7 @@ entries:
     author: David Moles
     genre: scifi
     fiction: true
-    rating: 62.0
+    rating: 62
     published: ~
     collection: ~
     type: short_story
@@ -1538,7 +1570,7 @@ entries:
     author: Megan Lindholm
     genre: scifi
     fiction: true
-    rating: 92.0
+    rating: 92
     published: ~
     collection: ~
     type: short_story
@@ -1552,7 +1584,7 @@ entries:
     author: Adam Roberts
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -1566,7 +1598,7 @@ entries:
     author: Carrie Vaughn
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: short_story
@@ -1580,7 +1612,7 @@ entries:
     author: Damon Knight
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -1594,7 +1626,7 @@ entries:
     author: Damon Knight
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: short_story
@@ -1608,7 +1640,7 @@ entries:
     author: Ted Chiang
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -1622,7 +1654,7 @@ entries:
     author: Ted Chiang
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: short_story
@@ -1636,7 +1668,7 @@ entries:
     author: Judith Moffett
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: novella
@@ -1650,7 +1682,7 @@ entries:
     author: Ted Chiang
     genre: scifi
     fiction: true
-    rating: 85.0
+    rating: 85
     published: ~
     collection: ~
     type: short_story
@@ -1664,7 +1696,7 @@ entries:
     author: Rahul Kanakia
     genre: scifi
     fiction: true
-    rating: 69.0
+    rating: 69
     published: ~
     collection: ~
     type: short_story
@@ -1678,7 +1710,7 @@ entries:
     author: Jay  O'Connell
     genre: scifi
     fiction: true
-    rating: 74.0
+    rating: 74
     published: ~
     collection: ~
     type: short_story
@@ -1692,7 +1724,7 @@ entries:
     author: Gabriela Santiago
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: short_story
@@ -1706,7 +1738,7 @@ entries:
     author: J. B. Park
     genre: scifi
     fiction: true
-    rating: 79.0
+    rating: 79
     published: ~
     collection: ~
     type: short_story
@@ -1720,7 +1752,7 @@ entries:
     author: Elaine Cuyegkeng
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -1734,7 +1766,7 @@ entries:
     author: Marcus Holm
     genre: scifi
     fiction: true
-    rating: 71.0
+    rating: 71
     published: ~
     collection: ~
     type: short_story
@@ -1748,7 +1780,7 @@ entries:
     author: Deborah L. Davitt
     genre: scifi
     fiction: true
-    rating: 95.0
+    rating: 95
     published: ~
     collection: ~
     type: short_story
@@ -1762,7 +1794,7 @@ entries:
     author: Pip Coen
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -1776,7 +1808,7 @@ entries:
     author: C.L. Kagmi
     genre: scifi
     fiction: true
-    rating: 85.0
+    rating: 85
     published: ~
     collection: ~
     type: short_story
@@ -1790,7 +1822,7 @@ entries:
     author: Nathan Hillstrom
     genre: scifi
     fiction: true
-    rating: 93.0
+    rating: 93
     published: ~
     collection: ~
     type: short_story
@@ -1804,7 +1836,7 @@ entries:
     author: Lars H. Hoffmann
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: short_story
@@ -1818,7 +1850,7 @@ entries:
     author: Lynn Kilmore
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -1832,7 +1864,7 @@ entries:
     author: Jamie Wahls
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: short_story
@@ -1846,7 +1878,7 @@ entries:
     author: Ken Wharton
     genre: scifi
     fiction: true
-    rating: 92.0
+    rating: 92
     published: ~
     collection: ~
     type: short_story
@@ -1860,7 +1892,7 @@ entries:
     author: Dustin Kennedy
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: ~
     collection: ~
     type: short_story
@@ -1874,7 +1906,7 @@ entries:
     author: Chris Barnham
     genre: scifi
     fiction: true
-    rating: 66.0
+    rating: 66
     published: ~
     collection: ~
     type: short_story
@@ -1888,7 +1920,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -1902,7 +1934,7 @@ entries:
     author: Rich Larson
     genre: scifi
     fiction: true
-    rating: 99.0
+    rating: 99
     published: ~
     collection: ~
     type: short_story
@@ -1916,7 +1948,7 @@ entries:
     author: Karl El-Koura
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: short_story
@@ -1930,7 +1962,7 @@ entries:
     author: Jeff Walden
     genre: scifi
     fiction: true
-    rating: 83.0
+    rating: 83
     published: ~
     collection: ~
     type: short_story
@@ -1944,7 +1976,7 @@ entries:
     author: Joe L. Hensley
     genre: scifi
     fiction: true
-    rating: 83.0
+    rating: 83
     published: ~
     collection: ~
     type: short_story
@@ -1958,7 +1990,7 @@ entries:
     author: Ronald D. Ferguson
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: short_story
@@ -1972,7 +2004,7 @@ entries:
     author: Dominic Teague
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: short_story
@@ -1986,7 +2018,7 @@ entries:
     author: Steve Rodgers
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: ~
     collection: ~
     type: short_story
@@ -2000,7 +2032,7 @@ entries:
     author: Michael Ryder
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: ~
     collection: ~
     type: short_story
@@ -2014,7 +2046,7 @@ entries:
     author: Tommi Virtanen
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: short_story
@@ -2028,7 +2060,7 @@ entries:
     author: Meg Elison
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -2042,7 +2074,7 @@ entries:
     author: C.L. Kagmi
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -2056,7 +2088,7 @@ entries:
     author: Larry Niven
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: short_story
@@ -2070,7 +2102,7 @@ entries:
     author: Howard Rodman
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: short_story
@@ -2084,7 +2116,7 @@ entries:
     author: David Ebenbach
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: ~
     collection: ~
     type: short_story
@@ -2098,7 +2130,7 @@ entries:
     author: Linda Nagata
     genre: scifi
     fiction: true
-    rating: 85.0
+    rating: 85
     published: ~
     collection: ~
     type: short_story
@@ -2112,7 +2144,7 @@ entries:
     author: Ray Nayler
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -2126,7 +2158,7 @@ entries:
     author: William Ledbetter
     genre: scifi
     fiction: true
-    rating: 86.0
+    rating: 86
     published: ~
     collection: ~
     type: short_story
@@ -2212,7 +2244,7 @@ entries:
     author: Lester del Rey
     genre: scifi
     fiction: true
-    rating: 75.0
+    rating: 75
     published: ~
     collection: ~
     type: short_story
@@ -2244,7 +2276,7 @@ entries:
     author: Peter Watts
     genre: scifi
     fiction: true
-    rating: 95.0
+    rating: 95
     published: ~
     collection: ~
     type: short_story
@@ -2258,7 +2290,7 @@ entries:
     author: Robert Charles Wilson
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -2272,7 +2304,7 @@ entries:
     author: Stanislaw Lem
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: novel
@@ -2286,7 +2318,7 @@ entries:
     author: Stanislaw Lem
     genre: scifi
     fiction: true
-    rating: 92.0
+    rating: 92
     published: ~
     collection: ~
     type: novel
@@ -2300,7 +2332,7 @@ entries:
     author: Stanislaw Lem
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: novel
@@ -2314,7 +2346,7 @@ entries:
     author: Dan Abnett
     genre: scifi
     fiction: true
-    rating: 73.0
+    rating: 73
     published: ~
     collection: ~
     type: short_story
@@ -2328,7 +2360,7 @@ entries:
     author: Charlie Jane Anders
     genre: scifi
     fiction: true
-    rating: 76.0
+    rating: 76
     published: ~
     collection: ~
     type: short_story
@@ -2342,7 +2374,7 @@ entries:
     author: Kage Baker
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: short_story
@@ -2356,7 +2388,7 @@ entries:
     author: Stephen Baxter
     genre: scifi
     fiction: true
-    rating: 91.0
+    rating: 91
     published: ~
     collection: ~
     type: short_story
@@ -2370,7 +2402,7 @@ entries:
     author: Tobias Buckell
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: ~
     collection: ~
     type: short_story
@@ -2384,7 +2416,7 @@ entries:
     author: Jack Campbell
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: ~
     collection: ~
     type: short_story
@@ -2398,7 +2430,7 @@ entries:
     author: Adam-Troy Castro
     genre: scifi
     fiction: true
-    rating: 80.0
+    rating: 80
     published: ~
     collection: ~
     type: short_story
@@ -2412,7 +2444,7 @@ entries:
     author: Becky Chambers
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -2426,7 +2458,7 @@ entries:
     author: Qiufan Chen
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: short_story
@@ -2440,7 +2472,7 @@ entries:
     author: Qiufan Chen
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: short_story
@@ -2454,7 +2486,7 @@ entries:
     author: Qiufan Chen
     genre: scifi
     fiction: true
-    rating: 86.0
+    rating: 86
     published: ~
     collection: ~
     type: short_story
@@ -2468,7 +2500,7 @@ entries:
     author: Aliette de Bodard
     genre: scifi
     fiction: true
-    rating: 81.0
+    rating: 81
     published: ~
     collection: ~
     type: short_story
@@ -2482,7 +2514,7 @@ entries:
     author: Greg Egan
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: ~
     collection: ~
     type: short_story
@@ -2496,7 +2528,7 @@ entries:
     author: Alan Dean Foster
     genre: scifi
     fiction: true
-    rating: 77.0
+    rating: 77
     published: ~
     collection: ~
     type: short_story
@@ -2510,7 +2542,7 @@ entries:
     author: Joseph Allen Hill
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: short_story
@@ -2524,7 +2556,7 @@ entries:
     author: Kat Howard
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: short_story
@@ -2538,7 +2570,7 @@ entries:
     author: Kameron Hurley
     genre: scifi
     fiction: true
-    rating: 84.0
+    rating: 84
     published: ~
     collection: ~
     type: short_story
@@ -2552,7 +2584,7 @@ entries:
     author: Xia Jia
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: short_story
@@ -2566,7 +2598,7 @@ entries:
     author: Xia Jia
     genre: scifi
     fiction: true
-    rating: 86.0
+    rating: 86
     published: ~
     collection: ~
     type: short_story
@@ -2580,7 +2612,7 @@ entries:
     author: Vylar Kaftan
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: short_story
@@ -2594,7 +2626,7 @@ entries:
     author: Ursula K. Le Guin
     genre: scifi
     fiction: true
-    rating: 89.0
+    rating: 89
     published: ~
     collection: ~
     type: novel
@@ -2608,7 +2640,7 @@ entries:
     author: Yoon Ha Lee
     genre: scifi
     fiction: true
-    rating: 79.0
+    rating: 79
     published: ~
     collection: ~
     type: short_story
@@ -2622,7 +2654,7 @@ entries:
     author: Cixin Liu
     genre: scifi
     fiction: true
-    rating: 100.0
+    rating: 100
     published: ~
     collection: ~
     type: novel
@@ -2636,7 +2668,7 @@ entries:
     author: Cixin Liu
     genre: scifi
     fiction: true
-    rating: 99.0
+    rating: 99
     published: ~
     collection: ~
     type: novel
@@ -2650,7 +2682,7 @@ entries:
     author: Cixin Liu
     genre: scifi
     fiction: true
-    rating: 98.0
+    rating: 98
     published: ~
     collection: ~
     type: novel
@@ -2664,7 +2696,7 @@ entries:
     author: Seanan McGuire
     genre: scifi
     fiction: true
-    rating: 68.0
+    rating: 68
     published: ~
     collection: ~
     type: short_story
@@ -2678,7 +2710,7 @@ entries:
     author: Ken McLeod
     genre: scifi
     fiction: true
-    rating: 98.0
+    rating: 98
     published: ~
     collection: ~
     type: short_story
@@ -2692,7 +2724,7 @@ entries:
     author: Linda Nagata
     genre: scifi
     fiction: true
-    rating: 71.0
+    rating: 71
     published: ~
     collection: ~
     type: short_story
@@ -2706,7 +2738,7 @@ entries:
     author: Alastair Reynolds
     genre: scifi
     fiction: true
-    rating: 90.0
+    rating: 90
     published: ~
     collection: ~
     type: novella
@@ -2720,7 +2752,7 @@ entries:
     author: Alastair Reynolds
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: ~
     collection: ~
     type: novella
@@ -2734,7 +2766,7 @@ entries:
     author: A. Merc Rustad
     genre: scifi
     fiction: true
-    rating: 92.0
+    rating: 92
     published: ~
     collection: ~
     type: short_story
@@ -2748,7 +2780,7 @@ entries:
     author: Karl Schroeder
     genre: scifi
     fiction: true
-    rating: 94.0
+    rating: 94
     published: ~
     collection: ~
     type: short_story
@@ -2762,7 +2794,7 @@ entries:
     author: Robert Silverberg
     genre: scifi
     fiction: true
-    rating: 97.0
+    rating: 97
     published: ~
     collection: ~
     type: short_story
@@ -2776,7 +2808,7 @@ entries:
     author: Vernor Vinge
     genre: scifi
     fiction: true
-    rating: 88.0
+    rating: 88
     published: ~
     collection: ~
     type: novel
@@ -2790,7 +2822,7 @@ entries:
     author: Caroline M. Yoachim
     genre: scifi
     fiction: true
-    rating: 99.0
+    rating: 99
     published: ~
     collection: ~
     type: short_story
@@ -2804,7 +2836,7 @@ entries:
     author: Becky Chambers
     genre: scifi
     fiction: true
-    rating: 96.0
+    rating: 96
     published: ~
     collection: ~
     type: novel
@@ -2818,7 +2850,7 @@ entries:
     author: Philip Jose Farmer
     genre: scifi
     fiction: true
-    rating: 78.0
+    rating: 78
     published: ~
     collection: ~
     type: novel
@@ -2832,7 +2864,7 @@ entries:
     author: Vernor Vinge
     genre: scifi
     fiction: true
-    rating: 98.0
+    rating: 98
     published: ~
     collection: ~
     type: novel
@@ -2846,7 +2878,7 @@ entries:
     author: Roger Zelazny
     genre: scifi
     fiction: true
-    rating: 82.0
+    rating: 82
     published: ~
     collection: ~
     type: novel
