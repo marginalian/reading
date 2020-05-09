@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render_partial "shared/head" %>
+</head>
+<body>
+  <table>
+    <tr>
+    <% @list.header_cells.each do |cell| %>
+      <th> <%= cell %> </th>
+    <% end %>
+    </tr>
+  <% @list.body_rows.each do |row| %>
+    <tr>
+    <% row.each do |cell| %>
+      <td style="white-space:nowrap">
+        <%= cell %>
+      </td>
+    <% end %>
+    </tr>
+  <% end %>
+  </table>
+</body>
+</html>

@@ -1,41 +1,30 @@
 #!/usr/bin/env ruby
 
-require 'yaml'
+require 'fileutils'
 
-require_relative '../lib/report.rb'
-require_relative '../lib/table.rb'
-require_relative '../lib/validator.rb'
+require_relative '../controllers/list_controller.rb'
+require_relative '../controllers/genre_controller.rb'
 
-# PREP
+"#{__dir__}/../site"
+  .tap(&FileUtils.method(:remove_dir))
+  .tap(&Dir.method(:mkdir))
+
+entries = YAML.load_file("./data.yml")["entries"]
+
+# Lists
 # ==============================================================================
-entries = YAML.load(File.read("./log.yml"))["entries"]
 
-pages = %w(
-  list.html
+all_list_entries = entries.map { |entry| entry.slice("read", "rating", "title", "author", "genre") }
+ListController.new(all_list_entries).call
+
+# Genres
+# ==============================================================================
+
+genres = %w(
+  scifi
+  sailing
 )
 
-pages.each do |file|
-  if File.exist?("./log/#{file}")
-    File.delete("./log/#{file}")
-  end
-end
+genres.map(&GenreController.method(:new)).each(&:call)
 
-# LIST
-# ==============================================================================
-filtered_entries = entries.map { |entry| entry.slice("read", "title", "author") }
-table = Table.new(filtered_entries).to_html
-File.open("./log/list.html", "w") { |f| f.puts table }
-
-# SCIFI
-# ==============================================================================
-# scifi_entries = entries.select { |entry| entry["genre"] == "scifi" }
-# scifi_report = Report.new(scifi_entries).to_s
-# puts scifi_report
-# File.open("./reports/scifi.txt", "w") do |f| 
-#   f.puts <<~REPORT
-#     SCIFI READING REPORT
-#    
-#     #{scifi_report}
-#   REPORT
-# end
-
+puts "Done"
