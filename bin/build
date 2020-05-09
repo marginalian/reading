@@ -1,7 +1,30 @@
 #!/usr/bin/env ruby
 
-require_relative '../controller.rb'
+require 'fileutils'
 
-Controller.new.call
+require_relative '../controllers/list_controller.rb'
+require_relative '../controllers/genre_controller.rb'
+
+"#{__dir__}/../site"
+  .tap(&FileUtils.method(:remove_dir))
+  .tap(&Dir.method(:mkdir))
+
+entries = YAML.load_file("./data.yml")["entries"]
+
+# Lists
+# ==============================================================================
+
+all_list_entries = entries.map { |entry| entry.slice("read", "rating", "title", "author", "genre") }
+ListController.new(all_list_entries).call
+
+# Genres
+# ==============================================================================
+
+genres = %w(
+  scifi
+  sailing
+)
+
+genres.map(&GenreController.method(:new)).each(&:call)
 
 puts "Done"

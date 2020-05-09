@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render_partial "shared/head" %>
+</head>
+<body>
+
+  <p> QUICK STATS </p>
+
+  <div class="stats">
+    <div class="stat-box">
+      <div class="stat">
+        <%= @genre.count%>
+      </div>
+      <div class="stat-caption">
+        documents read
+      </div>
+    </div>
+
+    <div class="stat-box">
+      <div class="stat">
+        <%= @genre.percentage %>%
+      </div>
+      <div class="stat-caption">
+        of all documents
+      </div>
+    </div>
+  </div>
+
+  <% if @genre.hundos.length.positive? %>
+    <fieldset>
+      <legend> PERFECT SCORES </legend>
+      <table>
+        <tr>
+        <% @genre.hundos.first.keys.each do |cell| %>
+          <th> <%= cell %> </th>
+        <% end %>
+        </tr>
+      <% @genre.hundos.map(&:values).each do |row| %>
+        <tr>
+        <% row.each do |cell| %>
+          <td>
+            <%= cell %>
+          </td>
+        <% end %>
+        </tr>
+      <% end %>
+      </table>
+    </fieldset>
+  <% end %>
+
+  <fieldset>
+    <legend> DOC TYPES </legend>
+    <% @genre.type_percentages.each do |type, percent| %>
+      <div>
+        <%= type.gsub("_", " ") %> <%= "▮" * percent %>
+      </div>
+    <% end %>
+  </fieldset>
+</body>
+</html>
+

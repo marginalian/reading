@@ -11,10 +11,6 @@ class List
     entries.map(&:values)
   end
 
-  def get_binding
-    binding
-  end
-
   private
 
   attr_reader :entries

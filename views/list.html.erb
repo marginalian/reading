@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="../styles/base.css">
+  <%= render_partial "shared/head" %>
 </head>
 <body>
   <table>
     <tr>
-    <% header_cells.each do |cell| %>
+    <% @list.header_cells.each do |cell| %>
       <th> <%= cell %> </th>
     <% end %>
     </tr>
-  <% body_rows.each do |row| %>
+  <% @list.body_rows.each do |row| %>
     <tr>
     <% row.each do |cell| %>
       <td style="white-space:nowrap">
