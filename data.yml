@@ -61,6 +61,20 @@ entries:
       - shared consciousness
       - hiveminds
 
+  - id: 1589033218
+    read: 2020-05-02
+    title: The 10:00 Report is Brought to You By...
+    author: Edward Bryant
+    genre: scifi
+    fiction: true
+    rating: 65
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags: []
+
   - id: 1588122818
     read: 2020-04-28
     title: A Voice From the Main Deck
