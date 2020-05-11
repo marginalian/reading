@@ -13,6 +13,22 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1589203682
+    read: 2020-05-11
+    title: The Funeral
+    author: Kate Wilhelm
+    genre: scifi
+    fiction: true
+    rating: 87
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - youth
+      - dystopia
+
   - id: 1588855492
     read: 2020-05-06
     title: By Fools Like Me
