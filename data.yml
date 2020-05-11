@@ -287,6 +287,22 @@ entries:
       - death
       - medicine
 
+  - id: 1589204994
+    read: 2020-02-10
+    title: Seraffyn's Mediterranean Adventure
+    author: Lin Pardey
+    genre: sailing
+    fiction: false
+    rating: 82
+    published: 1981
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - mediterranean
+      - sailing
+
   - id: 1586698611
     read: 2020-02-02
     title: Seraffyn's European Adventure
