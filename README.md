@@ -1,4 +1,6 @@
-<img align="center" width="100" height="100" src="./images/flying_book.png">
+<p align="center">
+  <img width="100" height="100" src="./images/flying_book.png">
+</p>
 
 This repo is a reading log. After reading a short story or a book, I add its vitals to `data.yml`. Running `bin/build` transforms that YAML into all the Html files in the `site` directory. To see the site in action, visit:
 
