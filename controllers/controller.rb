@@ -5,14 +5,31 @@ Dir["#{__dir__}/../models/*.rb"].each do |file|
   require file
 end
 
+require_relative "../helpers/all.rb"
+require_relative "../lib/partial_struct.rb"
+
 class Controller
   def call
     render
   end
 
-  def render_partial(path)
+  def render_partial(path, partial_variables=nil)
     view_path = File.read("#{view_root}#{path}.html.erb")
-    ERB.new(view_path).result(binding)
+
+    if partial_variables
+      partial_binding = PartialStruct.new(partial_variables).public_binding
+      ERB.new(view_path).result(partial_binding)
+    else
+      ERB.new(view_path).result(binding)
+    end
+  end
+
+  def method_missing(m, *args, &block)
+    if Helpers::All.respond_to?(m)
+      Helpers::All.send(m, *args, &block)
+    else
+      raise "Controller could not find method: #{m}"
+    end
   end
 
   private

@@ -1,0 +1,91 @@
+main.genre {
+  max-width: 40em;                                                                                                                                
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 0.5em 3em 0.5em;
+}
+
+main.genre h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.stats {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.stat-box {
+  display: inline-block; 
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1em;
+  width: 8em;
+  height: 8em;  
+  vertical-align: top;
+  margin-right: 1em;
+}
+
+.stat {
+  font-size: 2em; 
+  margin-bottom: 0.25em;
+  margin-top: 1em;
+  font-weight: bolder;
+}
+
+.text {
+  max-width: 40em;
+  min-width: 30em;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text .row .heading {
+  vertical-align: top;
+  margin-left: 1em;
+  padding: 0.25em 0.1em;
+}
+
+.text .rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em;
+  text-align: center;
+  padding: 0.25em 0.1em;
+}
+
+.text .particulars {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.particulars table {
+  width: 100%;
+  border-left: 1px solid lightgray;
+}
+
+.particulars td {
+  width: 1px;
+  padding-left: 1em;
+  color: #6b6b6b;
+}
+
+.particulars td:last-child {
+  width: 100%;
+}
+
+.particulars tr {
+  border-top: 1px solid lightgray;
+  border-bottom: none;
+}
+

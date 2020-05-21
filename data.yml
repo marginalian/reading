@@ -336,6 +336,23 @@ entries:
       - south pacific
       - sailing
 
+  - id: 1589858490
+    read: 2019-12-20
+    title: Airborne
+    author: William F. Buckley
+    genre: sailing
+    fiction: false
+    rating: 94
+    published: 1970
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - sailing
+      - crossing
+      - blue water
+
   - id: 1588721400
     read: 2019-12-11
     title: Being Human
@@ -1652,6 +1669,77 @@ entries:
     link: ~
     tags: []
 
+  - id: 1589853303
+    read: 2019-08-28
+    title: A Sea Vagabond's World
+    author: Bernard Moitessier
+    genre: sailing
+    fiction: false
+    rating: 91
+    published: 1995
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - philosophy
+    - cruising
+    - farming
+    - around-the-world
+
+  - id: 1589853302
+    read: 2019-08-26
+    title: Blue Water Vagabond
+    author: Dennis Puleston
+    genre: sailing
+    fiction: false
+    rating: 84
+    published: 1939
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - cruising
+    - dated
+    - around-the-world
+
+  - id: 1589853304
+    read: 2019-08-08
+    title: Sailing to the Edge of Time
+    author: John Kretschmer
+    genre: sailing
+    fiction: false
+    rating: 93
+    published: 2018
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - deliveries
+    - stories
+    - around-the-world
+    - industry
+
+  - id: 1589853301
+    read: 2019-07-28
+    title: Flirting with Mermaids
+    author: John Kretschmer
+    genre: sailing
+    fiction: false
+    rating: 95
+    published: 1999
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - deliveries
+    - stories
+    - around-the-world
+    - industry
+
   - id: 1588721494
     read: 2019-07-15
     title: The Big Pat Boom
@@ -1679,6 +1767,24 @@ entries:
     format: digital
     link: ~
     tags: []
+
+  - id: 1589853300
+    read: 2019-07-11
+    title: Trekka Round the World
+    author: John Guzzwell
+    genre: sailing
+    fiction: false
+    rating: 87
+    published: 1964
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - single-handed
+    - cruising
+    - around-the-world
+    - dated
 
   - id: 1588721496
     read: 2019-07-10
@@ -1763,6 +1869,89 @@ entries:
     format: digital
     link: ~
     tags: []
+
+  - id: 1589857752
+    read: 2019-05-23
+    title: Across Islands and Oceans
+    author: James Baldwin
+    genre: sailing
+    fiction: false
+    rating: 89
+    published: 2012
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - solo
+    - cruising
+    - around-the-world
+
+  - id: 1589853300
+    read: 2019-05-11
+    title: Voyaging on a Small Income
+    author: Annie Hill
+    genre: sailing
+    fiction: false
+    rating: 95
+    published: 1993
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - thrift
+    - cruising
+    - around-the-world
+
+  - id: 1589855644
+    read: 2019-04-25
+    title: Taleisin's Tales
+    author: Lin Pardey
+    genre: sailing
+    fiction: false
+    rating: 94
+    published: 2016
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - cruising
+      - sailing
+
+  - id: 1589855643
+    read: 2019-03-05
+    title: Seraffyn's Oriental Adventure
+    author: Lin Pardey
+    genre: sailing
+    fiction: false
+    rating: 96
+    published: 1996
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - asia
+      - cruising
+      - sailing
+
+  - id: 1589855642
+    read: 2019-01-26
+    title: Cruising in Seraffyn
+    author: Lin Pardey
+    genre: sailing
+    fiction: false
+    rating: 98
+    published: 1976
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - cruising
+      - sailing
 
   - id: 1588721502
     read: 2019-01-04
@@ -2298,6 +2487,78 @@ entries:
     link: ~
     tags: []
 
+  - id: 1589249481
+    read: 2018-10-04
+    title: Exit Strategy
+    author: Martha Wells
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2018
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1589249581
+    read: 2018-09-29
+    title: Rogue Protocol
+    author: Martha Wells
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2018
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1589249681
+    read: 2018-09-24
+    title: Artificial Condition
+    author: Martha Wells
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2018
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1589249781
+    read: 2018-09-19
+    title: All Systems Red
+    author: Martha Wells
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2018
+    collection: ~
+    type: novella
+    format: digital
+    link: ~
+    tags: []
+
+  - id: 1589858003
+    read: 2018-09-08
+    title: Back at the Helm
+    author: Arne Martensson, Helene Martensson
+    genre: sailing
+    fiction: false
+    rating: 79
+    published: 2010
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - cruising
+      - high-life
+
   - id: 1586955496
     read: 2018-08-19
     title: Blue Water, Green Skipper
@@ -2315,6 +2576,74 @@ entries:
     - racing
     - sailing
 
+  - id: 1589858489
+    read: 2018-05-15
+    title: Windfall
+    author: William F. Buckley
+    genre: sailing
+    fiction: false
+    rating: 95
+    published: 1992
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - sailing
+      - crossing
+      - blue water
+
+  - id: 1589852456
+    read: 2018-05-15
+    title: An Embarrassment of Mangoes
+    author: Ann Vanderhoof
+    genre: sailing
+    fiction: false
+    rating: 92
+    published: 2003
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - caribbean
+    - beginnings
+    - food
+    - cruising
+
+  - id: 1589848704
+    read: 2018-04-23
+    title: Sailing a Serious Ocean
+    author: John Kretschmer
+    genre: sailing
+    fiction: false
+    rating: 100
+    published: 2013
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - sailing
+    - boats
+    - boat buying
+
+  - id: 1589848714
+    read: 2018-03-25
+    title: Maiden Voyage
+    author: Tania Aebi
+    genre: sailing
+    fiction: false
+    rating: 92
+    published: 1989
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - sailing
+    - pets
+    - single-handed
 
   - id: 1588721540
     read: 2018-03-25
@@ -2343,6 +2672,24 @@ entries:
     format: digital
     link: ~
     tags: []
+
+  - id: 1589856215
+    read: 2018-02-07
+    title: Alone in the Caribbean
+    author: Frederic Abildgaard Fenger
+    genre: sailing
+    fiction: false
+    rating: 89
+    published: 1917
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - single-handed
+    - solo
+    - dated
+    - cruising
 
   - id: 1588721542
     read: 2018-01-25
@@ -2876,6 +3223,21 @@ entries:
     link: ~
     tags: []
 
+  - id: 1589858286
+    read: 2017-12-03
+    title: The Long Way
+    author: Bernard Moitessier
+    genre: sailing
+    fiction: false
+    rating: 97
+    published: 1971
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+    - cruising
+
   - id: 1588721580
     read: 2016-12-31
     title: A Closed and Common Orbit
@@ -2931,3 +3293,37 @@ entries:
     format: digital
     link: ~
     tags: []
+
+  - id: 1589822122
+    read: 2015-10-28
+    title: Dove
+    author: Robin Lee Graham
+    genre: sailing
+    fiction: false
+    rating: 81
+    published: 1972
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - around the world
+      - solo
+      - single-handed
+
+  - id: 1589822129
+    read: 2015-10-26
+    title: One Girl, One Dream
+    author: Laura Dekker
+    genre: sailing
+    fiction: false
+    rating: 84
+    published: 2014
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - around the world
+      - solo
+      - single-handed

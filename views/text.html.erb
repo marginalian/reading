@@ -1,0 +1,34 @@
+<div class="text">
+  <div class="row">
+    <div class="rating <%= rating_class(entry["rating"]) %> d-inline">
+      <%= entry["rating"] %>
+    </div>
+
+    <div class="heading">
+      <strong><%= entry["title"] %></strong>
+      <div><%= entry["author"] %></div>
+    </div>
+
+  </div>
+  <div class="particulars">
+    <div style="min-width: 2.7em;"></div>
+    <table>
+      <tr>
+        <td>read: </td>
+        <td><%= entry["read"] %></td> 
+      </tr>
+      <tr>
+        <td>pub: </td>
+        <td><%= entry["published"] || "-" %></td> 
+      </tr>
+      <tr>
+        <td>type: </td>
+        <td><%= entry["type"].gsub("_", " ") %></td> 
+      </tr>
+      <tr>
+        <td>tags: </td>
+        <td><%= entry["tags"]&.length&.positive? ? entry["tags"].join(", ") : "-" %></td> 
+      </tr>
+    </table> 
+  </div>
+</div>

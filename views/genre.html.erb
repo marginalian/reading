@@ -4,59 +4,49 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
+  <%= render_partial "shared/_header", page: @genre.name %>
 
-  <p> QUICK STATS </p>
+  <main class="genre">
+    <h1>Genre: <%= @genre.name.capitalize %></h1>
 
-  <div class="stats">
-    <div class="stat-box">
-      <div class="stat">
-        <%= @genre.count%>
+    <div class="stats">
+      <div class="stat-box">
+        <div class="stat">
+          <%= @genre.count%>
+        </div>
+        <div class="stat-caption">
+          total read
+        </div>
       </div>
-      <div class="stat-caption">
-        documents read
+
+      <div class="stat-box">
+        <div class="stat">
+          <%= @genre.percentage %>%
+        </div>
+        <div class="stat-caption">
+          of all reading
+        </div>
       </div>
     </div>
 
-    <div class="stat-box">
-      <div class="stat">
-        <%= @genre.percentage %>%
-      </div>
-      <div class="stat-caption">
-        of all documents
-      </div>
-    </div>
-  </div>
-
-  <% if @genre.hundos.length.positive? %>
-    <fieldset>
-      <legend> PERFECT SCORES </legend>
-      <table>
-        <tr>
-        <% @genre.hundos.first.keys.each do |cell| %>
-          <th> <%= cell %> </th>
+    <% if @genre.type_percentages.length > 1 %>
+      <fieldset>
+        <legend> Types </legend>
+        <table class="invisible" >
+        <% @genre.type_percentages.each do |type, percent| %>
+          <tr>
+            <td style="text-align: right;"><%= percent %>%</td>
+            <td><%= pluralize(type) %></td>
+          </tr>
         <% end %>
-        </tr>
-      <% @genre.hundos.map(&:values).each do |row| %>
-        <tr>
-        <% row.each do |cell| %>
-          <td>
-            <%= cell %>
-          </td>
-        <% end %>
-        </tr>
-      <% end %>
-      </table>
-    </fieldset>
-  <% end %>
-
-  <fieldset>
-    <legend> DOC TYPES </legend>
-    <% @genre.type_percentages.each do |type, percent| %>
-      <div>
-        <%= type.gsub("_", " ") %> <%= "▮" * percent %>
-      </div>
+        </table>
+      </fieldset>
     <% end %>
-  </fieldset>
+
+    <% @genre.entries_by_rating.each do |entry| %>
+      <%= render_partial "text", { entry: entry } %>
+    <% end %>
+  </main>
 </body>
 </html>
 

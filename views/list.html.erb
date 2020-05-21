@@ -4,21 +4,31 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
-  <table>
-    <tr>
-    <% @list.header_cells.each do |cell| %>
-      <th> <%= cell %> </th>
+  <%= render_partial "shared/_header", page: "list" %>
+
+  <main class="list">
+    <table>
+      <tr>
+        <th>read</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>author</th>
+        <th>genre</th>
+      </tr>
+    <% @list.entries.each do |row| %>
+      <tr>
+        <td><%= row["read"] %></td>
+        <td>
+          <div class="rating <%= rating_class(row["rating"]) %>">
+            <%= row["rating"] || "00" %>
+          </div>
+        </td>
+        <td><%= row["title"] %></td>
+        <td><%= row["author"] %></td>
+        <td><%= row["genre"] %></td>
+      </tr>
     <% end %>
-    </tr>
-  <% @list.body_rows.each do |row| %>
-    <tr>
-    <% row.each do |cell| %>
-      <td style="white-space:nowrap">
-        <%= cell %>
-      </td>
-    <% end %>
-    </tr>
-  <% end %>
-  </table>
+    </table>
+  </main>
 </body>
 </html>
