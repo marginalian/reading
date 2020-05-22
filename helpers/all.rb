@@ -20,7 +20,7 @@ module Helpers
     end
 
     def self.pluralize(word)
-      if word.chars.last == "y"
+      if word.chars.last == "y" && !%w[a e i o u].include?(word.chars[-2])
         word.dup.gsub(/y$/, 'ies')
       else
         word.dup.concat("s")
@@ -28,3 +28,4 @@ module Helpers
     end
   end
 end
+

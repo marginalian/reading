@@ -10,13 +10,15 @@
     <div class="stats">
       <div class="stat-box">
         <div class="stat">
-          <%= @entries.length %>
+          <%= @index.count %>
         </div>
         <div class="stat-caption">
           texts read
         </div>
       </div>
     </div>
+
+    <%= render_partial "shared/_type_percentages", type_percentages: @index.type_percentages %>
 
     <div class="card">
       <strong>Pages with more details:</strong>

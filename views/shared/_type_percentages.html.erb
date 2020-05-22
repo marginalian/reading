@@ -1,0 +1,13 @@
+<% if type_percentages.length > 1 %>
+  <fieldset>
+    <legend> Types </legend>
+    <table class="invisible" >
+    <% type_percentages.each do |type, percent| %>
+      <tr>
+        <td style="text-align: right;"><%= percent %>%</td>
+        <td><%= pluralize(type) %></td>
+      </tr>
+    <% end %>
+    </table>
+  </fieldset>
+<% end %>
