@@ -2673,6 +2673,20 @@ entries:
     link: ~
     tags: []
 
+  - id: 1590125477
+    read: 2018-03-07
+    title: Anna Karenina
+    author: Leo Tolstoy
+    genre: literature
+    fiction: true
+    rating: 100
+    published: 1878
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: []
+
   - id: 1589856215
     read: 2018-02-07
     title: Alone in the Caribbean
