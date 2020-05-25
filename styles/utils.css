@@ -2,3 +2,13 @@
   display: inline-block;
 }
 
+.centered {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.bg-dark {
+  background: rgba(0, 0, 0, 0.7);
+}
+

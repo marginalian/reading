@@ -12,4 +12,8 @@ class Index
   def count
     entries.length
   end
+
+  def heat_map
+    entries.map { _1["rating"] }.compact
+  end
 end

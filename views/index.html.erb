@@ -42,6 +42,18 @@
         <p>&mdash; Jacques Bonnet</p>
       </div>
     </fieldset> 
+
+    <fieldset>
+      <legend>Ratings (dark > light)</legend>
+      <div class="centered">
+        <div class="heat-map">
+        <% @index.heat_map.each do |rating| %>
+          <div class="heat-map-entry <%= heat_map_class(rating) %> d-inline">
+          </div>
+        <% end %> 
+        </div>
+      </div>
+    </fieldset>
   </main>
 </body>
 </html>
