@@ -13,6 +13,24 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1590431463
+    read: 2020-05-25
+    title: South From Alaska
+    author: Mike Litzow
+    genre: sailing
+    fiction: false
+    rating: 90
+    published: 2011
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags:
+      - cruising
+      - south pacific
+      - california
+      - mexico
+
   - id: 1589203682
     read: 2020-05-11
     title: The Funeral
