@@ -13,6 +13,22 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1592701077
+    read: 2020-06-18
+    title: You Can't Blow Home
+    author: Herb Payson
+    genre: sailing
+    fiction: false
+    rating: 92
+    published: 1984
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags:
+      - cruising
+      - south pacific
+
   - id: 1590431463
     read: 2020-05-25
     title: South From Alaska
