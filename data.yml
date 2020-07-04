@@ -13,6 +13,22 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1593887122
+    read: 2020-07-24
+    title: First Rites
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 96
+    published: 2008
+    collection: Fountain of Age
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - genetic engineering
+      - super consciousness
+
   - id: 1592701077
     read: 2020-06-18
     title: You Can't Blow Home
