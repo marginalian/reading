@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1593898640
+    read: 2020-07-24
+    title: First Rites
+    author: Nancy Kress
+    genre: autobiography
+    fiction: false
+    rating: ~
+    published: 2004
+    collection: Something About the Author, Volume 147
+    type: essay
+    format: digital
+    link: https://archive.org/details/isbn_9780787669935
+    tags: ~
+
   - id: 1593887122
     read: 2020-07-24
     title: First Rites
