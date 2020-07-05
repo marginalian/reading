@@ -13,8 +13,38 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1593992627
+    read: 2020-07-05
+    title: Images of Anna
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 88
+    published: 2009
+    collection: Fountain of Age
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - paranormal
+
+  - id: 1593992405
+    read: 2020-07-05
+    title: End Game
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 91
+    published: 2007
+    collection: Fountain of Age
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - mad scientist
+
   - id: 1593898640
-    read: 2020-07-24
+    read: 2020-07-04
     title: First Rites
     author: Nancy Kress
     genre: autobiography
@@ -28,7 +58,7 @@ entries:
     tags: ~
 
   - id: 1593887122
-    read: 2020-07-24
+    read: 2020-07-04
     title: First Rites
     author: Nancy Kress
     genre: scifi
