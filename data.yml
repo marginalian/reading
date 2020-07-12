@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1594572642
+    read: 2020-07-12
+    title: Deep Work
+    author: Cal Newport
+    genre: personal_development
+    fiction: false
+    rating: ~
+    published: 2016
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1593992627
     read: 2020-07-05
     title: Images of Anna
