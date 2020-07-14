@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1594695903
+    read: 2020-07-13
+    title: Buy, Outfit & Sail
+    author: Cap’n Fatty Goodlander
+    genre: sailing
+    fiction: false
+    rating: 86
+    published: 2011
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1594572642
     read: 2020-07-12
     title: Deep Work
