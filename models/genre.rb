@@ -18,13 +18,12 @@ class Genre
     ((count.to_f / all_entries.length.to_f) * 100).to_i
   end
 
-
   def entries
     all_entries.select { _1["genre"] == name }
   end
 
   def entries_by_rating
-    entries.sort_by { _1["rating"] }.reverse
+    entries.sort_by { _1["rating"] || 0 }.reverse
   end
 
   def all_entries

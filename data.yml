@@ -13,6 +13,107 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1595216366
+    read: 2020-07-20
+    title: Fountain of Age
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 93
+    published: 2007
+    collection: Fountain of Age
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - gene editing
+      - life extension
+
+  - id: 1595216372
+    read: 2020-07-19
+    title: Ellison on Ellison
+    author: Harlan Ellison
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1973
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1595216371
+    read: 2020-07-19
+    title: Harlan Ellison and the Formula Story
+    author: Joseph Patrouch Jr.
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1978
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - lit crit
+
+  - id: 1595216370
+    read: 2020-07-19
+    title: 7,000 More Words about Harlan Ellision
+    author: David Gerrold
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1978
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1595216369
+    read: 2020-07-18
+    title: The Jet-Propelled Birdbath
+    author: Robert Silverberg
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1967
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1595216368
+    read: 2020-07-17
+    title: Harlan Ellison
+    author: Ted White
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1967
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1595216367
+    read: 2020-07-16
+    title: The Essense of Ellison
+    author: Lee Hoffman
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1967
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1594826971
     read: 2020-07-14
     title: Safe Guard
