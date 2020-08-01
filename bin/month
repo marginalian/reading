@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'yaml'
+
+require_relative '../models/index.rb'
+
+entries = YAML.load_file("./data.yml")["entries"]
+
+this_month = Date.today.to_s.slice(0, 7)
+
+this_month_entries = entries.select do |entry|
+  entry["read"].to_s.slice(0, 7) == this_month
+end
+
+this_month_num = this_month.chars.pop.to_i
+last_month_num = this_month_num == 1 ? 12 : this_month_num - 1
+last_month = this_month.dup
+last_month[-1] = last_month_num.to_s
+
+last_month_entries = entries.select do |entry|
+  entry["read"].to_s.slice(0, 7) == last_month
+end
+
+puts "\nTHIS MONTH"
+puts "==========\n\n"
+
+Index.new(this_month_entries).type_counts.each do |title, count|
+ puts "#{title}: #{count}"
+end
+
+puts "\n\nLAST MONTH"
+puts "==========\n\n"
+
+Index.new(last_month_entries).type_counts.each do |title, count|
+ puts "#{title}: #{count}"
+end
+

@@ -13,5 +13,15 @@ module TypeBucketable
   def calc_pct
     -> (i) { ((i.to_f / entries.length.to_f) * 100).round }
   end
+
+  def type_counts
+    entries
+      .map { _1["type"] }
+      .group_by(&:itself)
+      .transform_keys! { _1.gsub("_", "\s") }
+      .transform_values!(&:size)
+      .sort_by { _2 }
+      .reverse
+  end
 end
 

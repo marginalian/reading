@@ -13,6 +13,110 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1595880232
+    read: 2020-07-28
+    title: The Pi Man
+    author: Alfred Bester
+    genre: scifi
+    fiction: true
+    rating: ~
+    published: 1959
+    collection: What If? Volume 2
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1595880232
+    read: 2020-07-28
+    title: 1959
+    author: Richard A. Lupoff
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1981
+    collection: What If? Volume 2
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - history of science fiction
+      - story length
+
+  - id: 1595880232
+    read: 2020-07-28
+    title: My Aunt Cora
+    author: Richard A. Lupoff
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1981
+    collection: What If? Volume 2
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - death of science fiction
+      - anti-sf
+
+  - id: 1595909824
+    read: 2020-07-28
+    title: Digital Minimalism
+    author: Cal Newport
+    genre: personal_development
+    fiction: false
+    rating: ~
+    published: 2019
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1595435857
+    read: 2020-07-22
+    title: Getting Stiffed
+    author: Harlan Ellison
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1972
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags:
+
+  - id: 1595435858
+    read: 2020-07-22
+    title: A Time for Daring
+    author: Harlan Ellison
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1967
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags:
+
+  - id: 1595435856
+    read: 2020-07-22
+    title: School for Apprentice Sorcerors
+    author: Harlan Ellison
+    genre: scifi
+    fiction: false
+    rating: ~
+    published: 1969
+    collection: The Book of Ellison
+    type: essay
+    format: physical
+    link: ~
+    tags:
+      - motivational
+      - clarion
+
   - id: 1595216366
     read: 2020-07-20
     title: Fountain of Age
@@ -189,7 +293,7 @@ entries:
 
   - id: 1593898640
     read: 2020-07-04
-    title: First Rites
+    title: Autobiography
     author: Nancy Kress
     genre: autobiography
     fiction: false
