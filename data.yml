@@ -13,13 +13,41 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1596463572
+    read: 2020-08-03
+    title: On Confidence
+    author: The School of Life
+    genre: personal_development
+    fiction: false
+    rating: ~
+    published: 2017
+    collection:
+    type: book
+    format: electronic
+    link: ~
+    tags: ~
+
+  - id: 1596463571
+    read: 2020-08-02
+    title: The Beast That Shouted Love at the Heart of the World
+    author: Harlan Ellison
+    genre: scifi
+    fiction: true
+    rating: 93
+    published: 1968
+    collection: The Beast That Shouted Love at the Heart of the World
+    type: short_story
+    format: electronic
+    link: ~
+    tags: ~
+
   - id: 1595880232
     read: 2020-07-28
     title: The Pi Man
     author: Alfred Bester
     genre: scifi
     fiction: true
-    rating: ~
+    rating: 82
     published: 1959
     collection: What If? Volume 2
     type: short_story
