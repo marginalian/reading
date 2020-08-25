@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1598317661
+    read: 2020-08-22
+    title: Diary of a Bookseller
+    author: Shaun Bythell
+    genre: other
+    fiction: false
+    rating: ~
+    published: 2017
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1596463572
     read: 2020-08-03
     title: On Confidence
@@ -21,7 +35,7 @@ entries:
     fiction: false
     rating: ~
     published: 2017
-    collection:
+    collection: ~
     type: book
     format: electronic
     link: ~
