@@ -19,25 +19,6 @@ module Helpers
       end
     end
 
-    def self.heat_map_class(rating)
-      case rating
-      when nil
-        "heat-map-null"
-      when 98..100
-        "heat-map-98-100"
-      when 90..97
-        "heat-map-90-97"
-      when 80..89
-        "heat-map-80-89"
-      when 70..79
-        "heat-map-70-79"
-      when 0..69
-        "heat-map-0-69"
-      else
-        ""
-      end
-    end
-
     def self.pluralize(word)
       if word.chars.last == "y" && !%w[a e i o u].include?(word.chars[-2])
         word.dup.gsub(/y$/, 'ies')

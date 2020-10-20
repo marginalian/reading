@@ -96,30 +96,6 @@ fieldset.quote .interior-text {
   border-color: #A5C3F2;
 }
 
-.heat-map-null {
-  background: inherit;
-}
-
-.heat-map-98-100 {
-  background: rgba(0, 0, 0, 1);
-}
-
-.heat-map-90-97 {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.heat-map-80-89 {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.heat-map-70-79 {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.heat-map-0-69 {
-  background: rgba(0, 0, 0, 0.1);
-}
-
 header {
   width: 100%;
   margin-bottom: 5em;
@@ -142,14 +118,5 @@ header .brand {
   border-radius: 3px;
   margin-top: 1em;
   padding: 1em 1em;
-}
-
-.heat-map {
-  width: 28em;
-}
-
-.heat-map-entry {
-  width: 2em;
-  height: 2em;
 }
 

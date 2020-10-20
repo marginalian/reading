@@ -13,6 +13,161 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1603155057
+    read: 2020-10-19
+    title: The Boat of a Million Years
+    author: Poul Anderson
+    genre: scifi
+    fiction: true
+    rating: 96
+    published: 1989
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags:
+      - immortality
+      - fermi paradox
+      - space opera
+      - aliens
+
+  - id: 1603154993
+    read: 2020-10-09
+    title: A Replacement for Religion
+    author: The School of Life
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 2019
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1603154868
+    read: 2020-10-08
+    title: A Lit Fuse--The Provocative Life of Harlan Ellison
+    author: Nat Segaloff
+    genre: biography
+    fiction: false
+    rating: ~
+    published: 2017
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1603154754
+    read: 2020-09-29
+    title: Beggars in Spain
+    author: Nancy Kress
+    genre: scifi
+    fiction: true
+    rating: 92
+    published: 1991
+    collection: Sleepless
+    type: novel
+    format: digital
+    link: ~
+    tags:
+      - genetic engineering
+      - longevity
+      - orbitals
+
+  - id: 1603154610
+    read: 2020-09-23
+    title: Dawn
+    author: Octavia E. Butler
+    genre: scifi
+    fiction: true
+    rating: 91
+    published: 1987
+    collection: Lilith's Brood
+    type: novel
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - post apocalyptic
+      - genetic engineering
+
+  - id: 1603154470
+    read: 2020-09-19
+    title: Nova
+    author: Samuel L. Delaney
+    genre: scifi
+    fiction: true
+    rating: 83
+    published: 1968
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags:
+      - space opera
+      - captain ahab
+      - revenge
+      - cyborgs
+      - ships
+
+  - id: 1603154303
+    read: 2020-09-13
+    title: Noa Noa--The Tahitian Journal
+    author: Paul Gauguin
+    genre: other
+    fiction: false
+    rating: ~
+    published: 1901
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1603154230
+    read: 2020-09-12
+    title: The Moon and Sixpence
+    author: Somerset Maugham
+    genre: literature
+    fiction: true
+    rating: 99
+    published: 1919
+    collection: ~
+    type: novel
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1603154166
+    read: 2020-09-12
+    title: A Common Faith
+    author: John Dewey
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 1934
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1603035823
+    read: 2020-09-07
+    title: Anxiety
+    author: The School of Life
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 2020
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1598317661
     read: 2020-08-22
     title: Diary of a Bookseller
@@ -31,7 +186,7 @@ entries:
     read: 2020-08-03
     title: On Confidence
     author: The School of Life
-    genre: personal_development
+    genre: devotional
     fiction: false
     rating: ~
     published: 2017
@@ -105,7 +260,7 @@ entries:
     read: 2020-07-28
     title: Digital Minimalism
     author: Cal Newport
-    genre: personal_development
+    genre: devotional
     fiction: false
     rating: ~
     published: 2019
@@ -293,7 +448,7 @@ entries:
     read: 2020-07-12
     title: Deep Work
     author: Cal Newport
-    genre: personal_development
+    genre: devotional
     fiction: false
     rating: ~
     published: 2016
