@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1603516444
+    read: 2020-10-22
+    title: Existentialism Is a Humanism
+    author: Jean-Paul Sartre
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 1946
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1603155057
     read: 2020-10-19
     title: The Boat of a Million Years
