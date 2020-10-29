@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1604000402
+    read: 2020-10-28
+    title: The Essentials of Living Aboard a Boat
+    author: Mark Nicholas
+    genre: sailing
+    fiction: false
+    rating: 76
+    published: 2005
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1603516444
     read: 2020-10-22
     title: Existentialism Is a Humanism
