@@ -23,7 +23,9 @@ class Genre
   end
 
   def entries_by_rating
-    entries.sort_by { _1["rating"] || 0 }.reverse
+    entries
+      .uniq { _1["title"].to_s + _1["author"] }
+      .sort_by { _1["rating"] || 0 }.reverse
   end
 
   def all_entries
