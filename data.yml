@@ -13,8 +13,22 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1606407114
+    read: 2020-11-24
+    title: The Consolation of Philosophy
+    author: Boethius
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 524
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1604855730
-    read: 2019-01-26
+    read: 2020-11-07
     title: Cruising in Seraffyn
     author: Lin Pardey
     genre: sailing
@@ -3125,6 +3139,20 @@ entries:
     format: digital
     link: ~
     tags: []
+
+  - id: 1606407273
+    read: 2018-09-15
+    title: The Path
+    author: Michael Puett
+    genre: devotional
+    fiction: false
+    rating: ~
+    published: 2016
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
 
   - id: 1589858003
     read: 2018-09-08
