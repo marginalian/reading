@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1606879725
+    read: 2020-11-30
+    title: Sailing, Yachts & Yarns
+    author: Tom Cunliffe
+    genre: sailing
+    fiction: false
+    rating: 88
+    published: 2011
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1606407114
     read: 2020-11-24
     title: The Consolation of Philosophy
