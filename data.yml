@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1607135022
+    read: 2020-12-02
+    title: Betrayals
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 93
+    published: 1995
+    collection: ~
+    type: novelette
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1606879725
     read: 2020-11-30
     title: Sailing, Yachts & Yarns
