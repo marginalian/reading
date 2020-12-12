@@ -13,6 +13,43 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1607738448
+    read: 2020-12-11
+    title: A Woman's Liberation
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 1995
+    collection: Five Ways to Forgiveness
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - ekumen
+      - aliens
+      - slavery
+      - handmaids_tale
+      - love
+
+  - id: 1607373883
+    read: 2020-12-07
+    title: Forgiveness Day
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 95
+    published: 1994
+    collection: Five Ways to Forgiveness
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - ekumen
+      - aliens
+      - wars
+      - love
+
   - id: 1607135022
     read: 2020-12-02
     title: Betrayals
@@ -21,7 +58,7 @@ entries:
     fiction: true
     rating: 93
     published: 1995
-    collection: ~
+    collection: Five Ways to Forgiveness
     type: novelette
     format: digital
     link: ~
@@ -2289,7 +2326,7 @@ entries:
     rating: 93
     published: ~
     collection: ~
-    type: short_story
+    type: novelette
     format: digital
     link: ~
     tags: []
