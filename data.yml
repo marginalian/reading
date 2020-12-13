@@ -13,6 +13,37 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1607875895
+    read: 2020-12-13
+    title: Old Music and the Slave Women
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 88
+    published: 1999
+    collection: Five Ways to Forgiveness
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - hainish
+      - aliens
+      - slavery
+
+  - id: 1607875753
+    read: 2020-12-12
+    title: Steering the Craft
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1998
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1607738448
     read: 2020-12-11
     title: A Woman's Liberation
@@ -872,7 +903,7 @@ entries:
     read: 2020-03-27
     title: "Characters Great and Small in SF: Sisters"
     author: Greg Bear
-    genre: on writing
+    genre: on_writing
     fiction: false
     rating: ~
     published: 1996
@@ -903,7 +934,7 @@ entries:
     read: 2020-03-25
     title: Making Monsters
     author: James Patrick Kelly
-    genre: on writing
+    genre: on_writing
     fiction: false
     rating: ~
     published: 1996
