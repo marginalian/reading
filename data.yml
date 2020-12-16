@@ -13,6 +13,38 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1608136257
+    read: 2020-12-16
+    title: Conversations on Writing
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 2018
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1608136174
+    read: 2020-12-16
+    title: Coming of Age in Karhide
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 83
+    published: 1995
+    collection: The Birthday of the World
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - hainish
+      - aliens
+      - sex
+      - gender
+
   - id: 1607875895
     read: 2020-12-13
     title: Old Music and the Slave Women
