@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1608308999
+    read: 2020-12-18
+    title: The Carrier Bag Theory of Fiction
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1986
+    collection: ~
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1608136257
     read: 2020-12-16
     title: Conversations on Writing
