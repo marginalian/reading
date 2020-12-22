@@ -13,6 +13,25 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1608607693
+    read: 2020-12-21
+    title: The Matter of Seggri
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 87
+    published: 1995
+    collection: The Birthday of the World
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - hainish
+      - aliens
+      - sex
+      - gender
+      - masculinity
+
   - id: 1608308999
     read: 2020-12-18
     title: The Carrier Bag Theory of Fiction
