@@ -13,6 +13,52 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1608853970
+    read: 2020-12-24
+    title: Solitude
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 100
+    published: 1994
+    collection: The Birthday of the World
+    type: novelette
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1608853925
+    read: 2020-12-23
+    title: Mountain Ways
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 98
+    published: 1996
+    collection: The Birthday of the World
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1608853869
+    read: 2020-12-22
+    title: Unchosen Love
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 96
+    published: 1994
+    collection: The Birthday of the World
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - love
+      - polyamory
+      - sea
+      - hainish
+
   - id: 1608607693
     read: 2020-12-21
     title: The Matter of Seggri
