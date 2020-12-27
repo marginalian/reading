@@ -13,6 +13,34 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609091537
+    read: 2020-12-27
+    title: The Birthday of the World
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 2019
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1609091439
+    read: 2020-12-27
+    title: The Birthday of the World
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 83
+    published: 2000
+    collection: The Birthday of the World
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1608853970
     read: 2020-12-24
     title: Solitude
