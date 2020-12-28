@@ -6,7 +6,7 @@
 <body>
   <%= render_partial "shared/_header", page: "index" %>
 
-  <main class="genre">
+  <main class="page">
     <div class="stats">
       <div class="stat-box">
         <div class="stat">
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <%= render_partial "shared/_type_percentages", type_percentages: @index.type_percentages %>
+    <%= render_partial "shared/_type_percentages", type_percentages: @index.type_percentages, type_counts: @index.type_counts %>
 
     <div class="card">
       <strong>Pages with more details:</strong>
@@ -26,6 +26,7 @@
         <li><a href="scifi.html">Science Fiction Reading </a></li>
         <li><a href="sailing.html">Sailing Reading </a></li>
         <li><a href="list.html">Full List</a> (large table)</li>
+        <li><a href="2020.html">2020</a></li>
       </ul>
     </div>
 

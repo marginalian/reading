@@ -5,6 +5,7 @@ require 'fileutils'
 require_relative '../controllers/list_controller.rb'
 require_relative '../controllers/genre_controller.rb'
 require_relative '../controllers/index_controller.rb'
+require_relative '../controllers/year_controller.rb'
 
 "#{__dir__}/../site"
   .tap(&FileUtils.method(:remove_dir))
@@ -28,4 +29,11 @@ genres = %w(
 
 genres.map(&GenreController.method(:new)).each(&:call)
 
+# Years
+# ==============================================================================
+
+%w(2020).map(&YearController.method(:new)).each(&:call)
+
+
 puts "Done"
+

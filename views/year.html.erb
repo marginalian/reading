@@ -4,15 +4,15 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
-  <%= render_partial "shared/_header", page: @genre.name %>
+  <%= render_partial "shared/_header", page: @year.name %>
 
   <main class="page">
-    <h1>Genre: <%= @genre.name.capitalize %></h1>
+    <h1><%= @year.name.capitalize %> Year in Review</h1>
 
     <div class="stats">
       <div class="stat-box">
         <div class="stat">
-          <%= @genre.count%>
+          <%= @year.count%>
         </div>
         <div class="stat-caption">
           total read
@@ -21,17 +21,17 @@
 
       <div class="stat-box">
         <div class="stat">
-          <%= @genre.percentage %>%
+          <%= @year.hundos %>
         </div>
         <div class="stat-caption">
-          of all reading
+          rated a perfect 100
         </div>
       </div>
     </div>
 
-    <%= render_partial "shared/_type_percentages", type_percentages: @genre.type_percentages, type_counts: @genre.type_counts %>
+    <%= render_partial "shared/_type_percentages", type_percentages: @year.type_percentages, type_counts: @year.type_counts %>
 
-    <% @genre.entries_by_rating.each do |entry| %>
+    <% @year.entries_by_rating.each do |entry| %>
       <%= render_partial "text", { entry: entry } %>
     <% end %>
   </main>

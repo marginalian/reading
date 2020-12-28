@@ -1,9 +1,9 @@
 require_relative './controller'
 
-class GenreController < Controller
+class YearController < Controller
   def initialize(name)
     @site_file_name = name
-    @genre = Genre.new(name)
+    @year = Year.new(name)
   end
 end
 
