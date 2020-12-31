@@ -13,9 +13,25 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609372668
+    read: 2020-12-30
+    title: Paradices Lost
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 91
+    published: 2002
+    collection: The Birthday of the World
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - generation_ship
+      - religion
+
   - id: 1609091537
     read: 2020-12-27
-    title: The Birthday of the World
+    title: The Final Interview
     author: Ursula K. Le Guin
     genre: on_writing
     fiction: false
