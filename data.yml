@@ -13,6 +13,62 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609537883
+    read: 2021-01-01
+    title: The Child and the Shadow
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1979
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1609537870
+    read: 2021-01-01
+    title: Dreams Must Explain Themselves
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1979
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1609537848
+    read: 2021-01-01
+    title: Why are Americans Afraid of Dragons?
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1979
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1609537796
+    read: 2021-01-01
+    title: A Citizen of Mondath
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1979
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1609372668
     read: 2020-12-30
     title: Paradices Lost
