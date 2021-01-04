@@ -13,6 +13,23 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609730318
+    read: 2021-01-03
+    title: Winter's King
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 88
+    published: 1964
+    collection: The Wind's Twelve Quarters
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - hainish
+      - relativity
+
   - id: 1609621352
     read: 2021-01-02
     title: Semley's Necklace
