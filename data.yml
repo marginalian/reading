@@ -13,6 +13,54 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609815097
+    read: 2021-01-04
+    title: Do-It-Yourself Cosmology
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1977
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - worldbuilding
+
+  - id: 1609815096
+    read: 2021-01-04
+    title: Science Fiction and Mrs. Brown
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1976
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - characterization
+
+  - id: 1609815095
+    read: 2021-01-04
+    title: Vaster Than Empires and More Slow
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 95
+    published: 1971
+    collection: The Wind's Twelve Quarters
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - hainish
+      - time_dilation
+      - genius_loci
+
   - id: 1609730318
     read: 2021-01-03
     title: Winter's King
@@ -28,7 +76,7 @@ entries:
     tags:
       - aliens
       - hainish
-      - relativity
+      - time_dilation
 
   - id: 1609621352
     read: 2021-01-02
@@ -3724,7 +3772,8 @@ entries:
     type: novel
     format: digital
     link: ~
-    tags: []
+    tags:
+      - genius_loci
 
   - id: 1588721544
     read: 2018-01-17

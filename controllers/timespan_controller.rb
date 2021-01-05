@@ -1,9 +1,9 @@
 require_relative './controller'
 
-class YearController < Controller
+class TimespanController < Controller
   def initialize(name)
     @site_file_name = name
-    @year = Year.new(name)
+    @timespan = Timespan.new(name)
   end
 end
 

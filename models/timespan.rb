@@ -1,7 +1,7 @@
 require 'yaml'
 require_relative './mixins/type_bucketable.rb'
 
-class Year
+class Timespan
   include TypeBucketable
 
   attr_reader :name
@@ -23,7 +23,10 @@ class Year
   end
 
   def entries
-    all_entries.select { _1["read"].to_s[0..3] == name }
+    @entries ||= begin
+      length = name.length - 1
+      all_entries.select { _1["read"].to_s[0..length] == name }
+    end
   end
 
   def entries_by_rating
@@ -33,7 +36,7 @@ class Year
   end
 
   def all_entries
-    YAML.load_file("#{__dir__}/../data.yml")["entries"]
+    @all_entries ||= YAML.load_file("#{__dir__}/../data.yml")["entries"]
   end
 end
 
