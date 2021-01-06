@@ -13,6 +13,35 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1609902020
+    read: 2021-01-05
+    title: The Day Before the Revolution
+    author: Ursula K. Le Guin
+    genre: scifi
+    fiction: true
+    rating: 80
+    published: 1974
+    collection: The Wind's Twelve Quarters
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1609902019
+    read: 2021-01-05
+    title: Talking About Writing
+    author: Ursula K. Le Guin
+    genre: on_writing
+    fiction: false
+    rating: ~
+    published: 1977
+    collection: The Language of the Night
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - advice
+
   - id: 1609815097
     read: 2021-01-04
     title: Do-It-Yourself Cosmology
@@ -49,7 +78,7 @@ entries:
     author: Ursula K. Le Guin
     genre: scifi
     fiction: true
-    rating: 95
+    rating: 96
     published: 1971
     collection: The Wind's Twelve Quarters
     type: novelette
