@@ -13,6 +13,24 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1610210029
+    read: 2021-01-09
+    title: Call of the Sea
+    author: France and Christian Guillain
+    genre: sailing
+    fiction: false
+    rating: 86
+    published: 1974
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags:
+      - family
+      - circumnavigation
+      - steel
+      - french_polynesia
+
   - id: 1609902020
     read: 2021-01-05
     title: The Day Before the Revolution
