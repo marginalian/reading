@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1610728886
+    read: 2021-01-15
+    title: Moitessier: A Sailing Legend
+    author: Jean-Michel Barrault
+    genre: sailing
+    fiction: false
+    rating: 89
+    published: 2004
+    collection: ~
+    type: book
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1610210029
     read: 2021-01-09
     title: Call of the Sea
