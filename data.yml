@@ -13,9 +13,38 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1611719962
+    read: 2021-01-26
+    title: Being Gardner Dozois
+    author: Gardner Dozois, Michael Swanwick
+    genre: scifi
+    fiction: false
+    rating: 80
+    published: 2018
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1611720441
+    read: 2021-01-18
+    title: After-Swarm
+    author: Benjanun Sriduangkaew
+    genre: scifi
+    fiction: true
+    rating: 87
+    published: 2017
+    collection: ~
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - war
+
   - id: 1610728886
     read: 2021-01-15
-    title: Moitessier: A Sailing Legend
+    title: Moitessier - A Sailing Legend
     author: Jean-Michel Barrault
     genre: sailing
     fiction: false
