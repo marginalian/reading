@@ -13,6 +13,69 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1612140937
+    read: 2021-01-31
+    title: The Big Space Fuck
+    author: Kurt Vonnegut
+    genre: scifi
+    fiction: true
+    rating: 81
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - idiocracy
+      - family matters
+
+  - id: 1612140896
+    read: 2021-01-30
+    title: When it Changed
+    author: Joanna Russ
+    genre: scifi
+    fiction: true
+    rating: 90
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - ahead of its time
+      - feminism
+      - gender
+
+  - id: 1611988372
+    read: 2021-01-29
+    title: Harry the Hare
+    author: James B. Hemesath
+    genre: scifi
+    fiction: true
+    rating: 79
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - cartoons
+      - copyright
+
+  - id: 1611988371
+    read: 2021-01-29
+    title: The Path
+    author: Michael Puett
+    genre: devotional
+    fiction: false
+    rating: 98
+    published: 2016
+    collection: ~
+    type: book
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1611719962
     read: 2021-01-26
     title: Being Gardner Dozois
