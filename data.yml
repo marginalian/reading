@@ -13,6 +13,50 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1612319565
+    read: 2021-02-02
+    title: Of Doubts and Dreams
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 92
+    published: 1981
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1612319536
+    read: 2021-02-02
+    title: Teaching/Writing
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 87
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - clarion
+      - workshopping
+
+  - id: 1612319365
+    read: 2021-02-01
+    title: Emblems of Talent
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 95
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1612140937
     read: 2021-01-31
     title: The Big Space Fuck
