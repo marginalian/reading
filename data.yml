@@ -13,6 +13,305 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1617286197
+    read: 2021-04-01
+    title: Painless
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 85
+    published: 2019
+    collection: Tor.com Originals
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - canabalism
+      - soldier
+      - immortality
+      - body modification
+
+  - id: 1614788620
+    read: 2021-03-03
+    title: We Might Be Sims
+    author: Rich Larson
+    genre: scifi
+    fiction: true
+    rating: 88
+    published: 2015
+    collection: Interzone #261
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - penal system
+      - space travel
+      - drugs
+
+  - id: 1613795632
+    read: 2021-02-17
+    title: Inside and Outside the Canon
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 82
+    published:
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - literature
+      - paraliterature
+      - genre
+
+  - id: 1613795631
+    read: 2021-02-16
+    title: Aye, and Gomorrah
+    author: Samuel R. Delany
+    genre: scifi
+    fiction: true
+    rating: 93
+    published:
+    collection: Samuel R. Delany
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - gender
+      - astronauts
+      - fetish
+
+  - id: 1613795630
+    read: 2021-02-15
+    title: A Black Clock Interview
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 80
+    published: 2004
+    collection: About Writing
+    type: interview
+    format: digital
+    link: ~
+    tags:
+      - genre
+
+  - id: 1613795635
+    read: 2021-02-15
+    title: Corona
+    author: Samuel R. Delany
+    genre: scifi
+    fiction: true
+    rating: 95
+    published:
+    collection: Samuel R. Delany
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - telepathy
+
+  - id: 1613795629
+    read: 2021-02-14
+    title: A Silent Interview
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 80
+    published: 1999
+    collection: About Writing
+    type: interview
+    format: digital
+    link: ~
+    tags:
+      - poetry
+
+  - id: 1613795628
+    read: 2021-02-11
+    title: The Situation of American Writing Today
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 84
+    published: 1999
+    collection: About Writing
+    type: interview
+    format: digital
+    link: ~
+    tags:
+      - critical theory
+
+  - id: 1613795627
+    read: 2021-02-10
+    title: Experimental Writing / Texts & Questions
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 80
+    published: 1998
+    collection: About Writing
+    type: interview
+    format: digital
+    link: ~
+    tags:
+      - experimental
+      - genre
+      - literature
+
+  - id: 1613795626
+    read: 2021-02-09
+    title: Letter to S—
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 89
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1613795625
+    read: 2021-02-08
+    title: Letter to R—
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 81
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - reputation
+      - fame
+
+  - id: 1613795624
+    read: 2021-02-07
+    title: Letter to Q—
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 79
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - bluest-eye
+
+  - id: 1613795623
+    read: 2021-02-06
+    title: Letter to P—
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 89
+    published: 2005
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - talent
+      - genius
+      - ramshackle
+
+  - id: 1613795622
+    read: 2021-02-05
+    title: Some Notes for the Intermediate and Advanced Creative Writing Student
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 100
+    published: 2000
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - craft
+
+  - id: 1612485902
+    read: 2021-02-04
+    title: The Star Pit
+    author: Samuel R. Delany
+    genre: scifi
+    fiction: true
+    rating: 98
+    published: 1967
+    collection: Samuel R. Delany
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - deminsions
+      - galaxies
+      - space opera
+
+  - id: 1612485806
+    read: 2021-02-04
+    title: Reflections on "The Beach Fire"
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 84
+    published: 1981
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - criticism
+
+  - id: 1612485770
+    read: 2021-02-03
+    title: On Pure Storytelling
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 90
+    published: 1981
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags:
+      - oral storytelling
+
+  - id: 1612485713
+    read: 2021-02-03
+    title: Characters
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 86
+    published: 1981
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1612485588
+    read: 2021-02-03
+    title: Thickening the Plot
+    author: Samuel R. Delany
+    genre: on_writing
+    fiction: false
+    rating: 88
+    published: 1981
+    collection: About Writing
+    type: essay
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1612319565
     read: 2021-02-02
     title: Of Doubts and Dreams
@@ -782,7 +1081,7 @@ entries:
   - id: 1603154470
     read: 2020-09-19
     title: Nova
-    author: Samuel L. Delaney
+    author: Samuel R. Delany
     genre: scifi
     fiction: true
     rating: 83
