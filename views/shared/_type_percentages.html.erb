@@ -1,16 +1,13 @@
 <% count_lookup = type_counts.to_h %>
 
 <% if type_percentages.length > 1 %>
-  <fieldset>
-    <legend> Types </legend>
-    <table class="invisible" >
-    <% type_percentages.each do |type, percent| %>
-      <tr>
-        <td style="text-align: right;"><%= count_lookup[type] %></td>
-        <td style="width:100%"><%= pluralize(type) %></td>
-        <td style="text-align: right;"><%= percent %>%</td>
-      </tr>
-    <% end %>
-    </table>
-  </fieldset>
+  <table class="invisible" >
+  <% type_percentages.each do |type, percent| %>
+    <tr>
+      <td style="text-align: right;"><%= count_lookup[type] %></td>
+      <td style="text-align: right;">(<%= percent %>%)</td>
+      <td style="width:100%"><%= pluralize(type) %></td>
+    </tr>
+  <% end %>
+  </table>
 <% end %>

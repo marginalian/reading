@@ -4,9 +4,9 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
-  <%= render_partial "shared/_header", page: @timespan.name %>
-
   <main class="page">
+    <%= render_partial "shared/_header", page: @timespan.name %>
+
     <h1><%= @timespan.name.capitalize %> in Review</h1>
 
     <div class="stats">
@@ -30,6 +30,9 @@
     </div>
 
     <%= render_partial "shared/_type_percentages", type_percentages: @timespan.type_percentages, type_counts: @timespan.type_counts %>
+
+    <br />
+    <br />
 
     <% @timespan.entries_by_rating.each do |entry| %>
       <%= render_partial "text", { entry: entry } %>

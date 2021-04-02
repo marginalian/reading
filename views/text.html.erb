@@ -1,12 +1,12 @@
 <div class="text">
   <div class="row">
     <div class="rating <%= rating_class(entry["rating"]) %> d-inline">
-      <%= entry["rating"] %>
+      <%= entry["rating"] || "--" %>
     </div>
 
     <div class="heading">
       <strong><%= entry["title"] %></strong>
-      <div><%= entry["author"] %></div>
+      <div>by <%= entry["author"] %></div>
     </div>
 
   </div>

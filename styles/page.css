@@ -1,66 +1,63 @@
 main.page {
   max-width: 40em;                                                                                                                                
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0rem 0.5em 3em 0.5em;
+  padding: 0rem 0.5em 3em 2.5em;
 }
 
-main.page h1 {
-  width: 100%;
-  text-align: center;
+h1 {
   margin-bottom: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1em;
+  text-transform: uppercase;
 }
 
 .stats {
-  text-align: center;
   margin-bottom: 2em;
 }
 
 .stat-box {
-  display: inline-block; 
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  text-align: center;
-  padding: 1em;
-  width: 8em;
-  height: 8em;  
-  vertical-align: top;
-  margin-right: 1em;
 }
 
 .stat {
-  font-size: 2em; 
+  font-size: 1em; 
   margin-bottom: 0.25em;
   margin-top: 1em;
-  font-weight: bolder;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.stat-caption {
+  display: inline-block;
 }
 
 .text {
   max-width: 40em;
   min-width: 30em;
-  border: 1px solid lightgray;
-  border-radius: 3px;
   margin-top: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid black;
 }
 
 .row {
   display: flex;
   flex-direction: row;
+  margin-bottom: 0.5em;
 }
 
 .text .row .heading {
   vertical-align: top;
   margin-left: 1em;
   padding: 0.25em 0.1em;
+  line-height: 1.5;
 }
 
 .text .rating {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 2.5em;
   text-align: center;
   padding: 0.25em 0.1em;
+  line-height: 1.5;
 }
 
 .text .particulars {
@@ -71,13 +68,12 @@ main.page h1 {
 
 .particulars table {
   width: 100%;
-  border-left: 1px solid lightgray;
 }
 
 .particulars td {
   width: 1px;
   padding-left: 1em;
-  color: #6b6b6b;
+  padding-top: 2px;
 }
 
 .particulars td:last-child {
@@ -85,7 +81,6 @@ main.page h1 {
 }
 
 .particulars tr {
-  border-top: 1px solid lightgray;
   border-bottom: none;
 }
 

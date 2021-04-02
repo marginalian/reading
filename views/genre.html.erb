@@ -4,9 +4,9 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
-  <%= render_partial "shared/_header", page: @genre.name %>
-
   <main class="page">
+    <%= render_partial "shared/_header", page: @genre.name %>
+
     <h1>Genre: <%= @genre.name.capitalize %></h1>
 
     <div class="stats">
@@ -30,6 +30,9 @@
     </div>
 
     <%= render_partial "shared/_type_percentages", type_percentages: @genre.type_percentages, type_counts: @genre.type_counts %>
+
+    <br />
+    <br />
 
     <% @genre.entries_by_rating.each do |entry| %>
       <%= render_partial "text", { entry: entry } %>

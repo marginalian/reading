@@ -1,16 +1,27 @@
 /* SEMANTIC TAGS */
 
 body {
-  background: #FFFFEB;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-family: monospace;
 }
 
 a {
-  text-decoration: none;
-  color: lightseagreen;
-  font-weight: bold;
+  color: black;
+  text-underline-position: under;
 }
 
+ul {
+  margin: 0;
+  margin-top: 1em;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul > li:before {
+  content: "-";
+  margin-right: 0.5em;
+}
 
 li {
   margin-bottom: 0.35em;
@@ -30,7 +41,7 @@ tr {
 }
 
 td {
-  padding: 10px;
+  padding: 10px 10px 2px;
 }
 
 th {
@@ -72,43 +83,32 @@ fieldset.quote .interior-text {
 /* SHARED CLASSES */
 
 .rating-98-100 {
-  background-color: #FEE49D;
-  border-color: #FEE49D;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .rating-90-97 {
-  background-color: #F8CA9F;
-  border-color: #F8CA9F;
+  font-weight: bold;
 }
 
 .rating-80-89 {
-  background-color: #E8999A;
-  border-color: #E8999A;
 }
 
 .rating-70-79 {
-  background-color: #B4A8D5;
-  border-color: #B4A8D5;
 }
 
 .rating-0-69 {
-  background-color: #A5C3F2;
-  border-color: #A5C3F2;
 }
 
 header {
-  width: 100%;
   margin-bottom: 5em;
 }
 
 header .brand {
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.05);
-  height: 210px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 210px;
+  height: 110px;
+  width: 110px;
+  margin-bottom: 4em;
 }
 
 .card {
@@ -118,5 +118,9 @@ header .brand {
   border-radius: 3px;
   margin-top: 1em;
   padding: 1em 1em;
+}
+
+.nav-item {
+  margin-bottom: 0.5em;
 }
 

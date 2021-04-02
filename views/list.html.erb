@@ -4,20 +4,28 @@
   <%= render_partial "shared/head" %>
 </head>
 <body>
-  <%= render_partial "shared/_header", page: "list" %>
-
   <main class="list">
+    <%= render_partial "shared/_header", page: "list" %>
+
+    <h1>All</h1>
+
+    <br />
+    <br />
+
     <table>
       <tr>
+        <th class="right">#</th>
         <th>read</th>
         <th>rating</th>
         <th>title</th>
         <th>author</th>
         <th>genre</th>
       </tr>
-    <% @list.entries.each do |row| %>
+    <% length = @list.entries.length %>
+    <% @list.entries.each_with_index do |row, index| %>
       <tr>
-        <td><%= row["read"] %></td>
+        <td class="right"><%= length - index %></td>
+        <td class="min"><%= row["read"] %></td>
         <td>
           <div class="rating <%= rating_class(row["rating"]) %>">
             <%= row["rating"] || "--" %>

@@ -1,19 +1,31 @@
 main.list {
   width: 100%;
-  padding: 0rem 0.5em 3em 0.5em;
+  padding: 0rem 0.5em 3em 2.5em;
 }
 
 main.list table {
-  margin: 0 auto;
-  border: 1px solid lightgray;
-  border-radius: 3px;
+}
+
+main.list tr {
+  border-bottom: 1px solid black;
 }
 
 main.list td {
-  white-space: nowrap
+  white-space: nowrap;
+  padding-bottom: 0.5em; 
+}
+
+main.list th.right,
+main.list td.right {
+  text-align: right;
+}
+
+main.list td.min {
+  min-width: 7em;
 }
 
 main.list .rating {
   text-align: center;
   border-radius: 3px;
 }
+
