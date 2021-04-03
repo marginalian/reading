@@ -1,7 +1,7 @@
 require 'yaml'
 require_relative './mixins/type_bucketable.rb'
 
-class Genre
+class Shelf
   include TypeBucketable
 
   attr_reader :name
@@ -19,7 +19,7 @@ class Genre
   end
 
   def entries
-    all_entries.select { _1["genre"] == name }
+    all_entries.select { _1["shelf"] == name }
   end
 
   def entries_by_rating

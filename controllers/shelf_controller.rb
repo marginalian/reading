@@ -1,9 +1,9 @@
 require_relative './controller'
 
-class GenreController < Controller
+class ShelfController < Controller
   def initialize(name)
     @site_file_name = name
-    @genre = Genre.new(name)
+    @shelf = Shelf.new(name)
   end
 end
 

@@ -5,14 +5,14 @@
 </head>
 <body>
   <main class="page">
-    <%= render_partial "shared/_header", page: @genre.name %>
+    <%= render_partial "shared/_header", page: @shelf.name %>
 
-    <h1>Genre: <%= @genre.name.capitalize %></h1>
+    <h1>Shelf: <%= @shelf.name %></h1>
 
     <div class="stats">
       <div class="stat-box">
         <div class="stat">
-          <%= @genre.count%>
+          <%= @shelf.count%>
         </div>
         <div class="stat-caption">
           total read
@@ -21,7 +21,7 @@
 
       <div class="stat-box">
         <div class="stat">
-          <%= @genre.percentage %>%
+          <%= @shelf.percentage %>%
         </div>
         <div class="stat-caption">
           of all reading
@@ -29,12 +29,12 @@
       </div>
     </div>
 
-    <%= render_partial "shared/_type_percentages", type_percentages: @genre.type_percentages, type_counts: @genre.type_counts %>
+    <%= render_partial "shared/_type_percentages", type_percentages: @shelf.type_percentages, type_counts: @shelf.type_counts %>
 
     <br />
     <br />
 
-    <% @genre.entries_by_rating.each do |entry| %>
+    <% @shelf.entries_by_rating.each do |entry| %>
       <%= render_partial "text", { entry: entry } %>
     <% end %>
   </main>

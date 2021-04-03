@@ -2,7 +2,7 @@
 # read: array of dates YYYY-MM-DD
 # title: string
 # author: string
-# genre: string
+# shelf: string
 # fiction: bool
 # rating: int =< 100
 # published: YYYY
@@ -13,11 +13,27 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1617459536
+    read: 2021-04-03
+    title: With a Finger in My I
+    author: David Gerrold
+    shelf: scifi
+    fiction: true
+    rating: 97
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - reality
+      - drugs
+
   - id: 1617286197
     read: 2021-04-01
     title: Painless
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2019
@@ -31,11 +47,43 @@ entries:
       - immortality
       - body modification
 
+  - id: 1617459873
+    read: 2021-03-06
+    title: Bisquit Position
+    author: Bernard Wolfe
+    shelf: scifi
+    fiction: true
+    rating: 91
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - war
+      - napalm
+
+  - id: 1617459758
+    read: 2021-03-05
+    title: Still-Life
+    author: K.M. O’Donnell
+    shelf: scifi
+    fiction: true
+    rating: 87
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - meta
+      - astronauts
+
   - id: 1614788620
     read: 2021-03-03
     title: We Might Be Sims
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: 2015
@@ -52,7 +100,7 @@ entries:
     read: 2021-02-17
     title: Inside and Outside the Canon
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 82
     published:
@@ -69,7 +117,7 @@ entries:
     read: 2021-02-16
     title: Aye, and Gomorrah
     author: Samuel R. Delany
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published:
@@ -86,7 +134,7 @@ entries:
     read: 2021-02-15
     title: A Black Clock Interview
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 80
     published: 2004
@@ -101,7 +149,7 @@ entries:
     read: 2021-02-15
     title: Corona
     author: Samuel R. Delany
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published:
@@ -116,7 +164,7 @@ entries:
     read: 2021-02-14
     title: A Silent Interview
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 80
     published: 1999
@@ -131,7 +179,7 @@ entries:
     read: 2021-02-11
     title: The Situation of American Writing Today
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 84
     published: 1999
@@ -146,7 +194,7 @@ entries:
     read: 2021-02-10
     title: Experimental Writing / Texts & Questions
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 80
     published: 1998
@@ -163,7 +211,7 @@ entries:
     read: 2021-02-09
     title: Letter to S—
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 89
     published: 2005
@@ -177,7 +225,7 @@ entries:
     read: 2021-02-08
     title: Letter to R—
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 81
     published: 2005
@@ -193,7 +241,7 @@ entries:
     read: 2021-02-07
     title: Letter to Q—
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 79
     published: 2005
@@ -208,7 +256,7 @@ entries:
     read: 2021-02-06
     title: Letter to P—
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 89
     published: 2005
@@ -225,7 +273,7 @@ entries:
     read: 2021-02-05
     title: Some Notes for the Intermediate and Advanced Creative Writing Student
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 100
     published: 2000
@@ -240,7 +288,7 @@ entries:
     read: 2021-02-04
     title: The Star Pit
     author: Samuel R. Delany
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: 1967
@@ -258,7 +306,7 @@ entries:
     read: 2021-02-04
     title: Reflections on "The Beach Fire"
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 84
     published: 1981
@@ -273,7 +321,7 @@ entries:
     read: 2021-02-03
     title: On Pure Storytelling
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 90
     published: 1981
@@ -288,7 +336,7 @@ entries:
     read: 2021-02-03
     title: Characters
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 86
     published: 1981
@@ -302,7 +350,7 @@ entries:
     read: 2021-02-03
     title: Thickening the Plot
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 88
     published: 1981
@@ -316,7 +364,7 @@ entries:
     read: 2021-02-02
     title: Of Doubts and Dreams
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 92
     published: 1981
@@ -330,7 +378,7 @@ entries:
     read: 2021-02-02
     title: Teaching/Writing
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 87
     published: 2005
@@ -346,7 +394,7 @@ entries:
     read: 2021-02-01
     title: Emblems of Talent
     author: Samuel R. Delany
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: 95
     published: 2005
@@ -360,7 +408,7 @@ entries:
     read: 2021-01-31
     title: The Big Space Fuck
     author: Kurt Vonnegut
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: 1972
@@ -376,7 +424,7 @@ entries:
     read: 2021-01-30
     title: When it Changed
     author: Joanna Russ
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: 1972
@@ -393,7 +441,7 @@ entries:
     read: 2021-01-29
     title: Harry the Hare
     author: James B. Hemesath
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 79
     published: 1972
@@ -409,7 +457,7 @@ entries:
     read: 2021-01-29
     title: The Path
     author: Michael Puett
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: 98
     published: 2016
@@ -423,7 +471,7 @@ entries:
     read: 2021-01-26
     title: Being Gardner Dozois
     author: Gardner Dozois, Michael Swanwick
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: 80
     published: 2018
@@ -437,7 +485,7 @@ entries:
     read: 2021-01-18
     title: After-Swarm
     author: Benjanun Sriduangkaew
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: 2017
@@ -452,7 +500,7 @@ entries:
     read: 2021-01-15
     title: Moitessier - A Sailing Legend
     author: Jean-Michel Barrault
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 89
     published: 2004
@@ -466,7 +514,7 @@ entries:
     read: 2021-01-09
     title: Call of the Sea
     author: France and Christian Guillain
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 86
     published: 1974
@@ -485,7 +533,7 @@ entries:
     read: 2021-01-05
     title: The Day Before the Revolution
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: 1974
@@ -499,7 +547,7 @@ entries:
     read: 2021-01-05
     title: Talking About Writing
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1977
@@ -514,7 +562,7 @@ entries:
     read: 2021-01-04
     title: Do-It-Yourself Cosmology
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1977
@@ -529,7 +577,7 @@ entries:
     read: 2021-01-04
     title: Science Fiction and Mrs. Brown
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1976
@@ -544,7 +592,7 @@ entries:
     read: 2021-01-04
     title: Vaster Than Empires and More Slow
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 1971
@@ -562,7 +610,7 @@ entries:
     read: 2021-01-03
     title: Winter's King
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: 1964
@@ -579,7 +627,7 @@ entries:
     read: 2021-01-02
     title: Semley's Necklace
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 1964
@@ -595,7 +643,7 @@ entries:
     read: 2021-01-02
     title: American SF and The Other
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -609,7 +657,7 @@ entries:
     read: 2021-01-02
     title: From Elfland to Poughkeepsie
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -623,7 +671,7 @@ entries:
     read: 2021-01-02
     title: Myth and Archetype in Science Fiction
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -637,7 +685,7 @@ entries:
     read: 2021-01-01
     title: The Child and the Shadow
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -651,7 +699,7 @@ entries:
     read: 2021-01-01
     title: Dreams Must Explain Themselves
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -665,7 +713,7 @@ entries:
     read: 2021-01-01
     title: Why are Americans Afraid of Dragons?
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -679,7 +727,7 @@ entries:
     read: 2021-01-01
     title: A Citizen of Mondath
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1979
@@ -693,7 +741,7 @@ entries:
     read: 2020-12-30
     title: Paradices Lost
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: 2002
@@ -709,7 +757,7 @@ entries:
     read: 2020-12-27
     title: The Final Interview
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 2019
@@ -723,7 +771,7 @@ entries:
     read: 2020-12-27
     title: The Birthday of the World
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: 2000
@@ -737,7 +785,7 @@ entries:
     read: 2020-12-24
     title: Solitude
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: 1994
@@ -751,7 +799,7 @@ entries:
     read: 2020-12-23
     title: Mountain Ways
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: 1996
@@ -765,7 +813,7 @@ entries:
     read: 2020-12-22
     title: Unchosen Love
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 1994
@@ -783,7 +831,7 @@ entries:
     read: 2020-12-21
     title: The Matter of Seggri
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: 1995
@@ -802,7 +850,7 @@ entries:
     read: 2020-12-18
     title: The Carrier Bag Theory of Fiction
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1986
@@ -816,7 +864,7 @@ entries:
     read: 2020-12-16
     title: Conversations on Writing
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 2018
@@ -830,7 +878,7 @@ entries:
     read: 2020-12-16
     title: Coming of Age in Karhide
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: 1995
@@ -848,7 +896,7 @@ entries:
     read: 2020-12-13
     title: Old Music and the Slave Women
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: 1999
@@ -865,7 +913,7 @@ entries:
     read: 2020-12-12
     title: Steering the Craft
     author: Ursula K. Le Guin
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1998
@@ -879,7 +927,7 @@ entries:
     read: 2020-12-11
     title: A Woman's Liberation
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 1995
@@ -898,7 +946,7 @@ entries:
     read: 2020-12-07
     title: Forgiveness Day
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: 1994
@@ -916,7 +964,7 @@ entries:
     read: 2020-12-02
     title: Betrayals
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: 1995
@@ -930,7 +978,7 @@ entries:
     read: 2020-11-30
     title: Sailing, Yachts & Yarns
     author: Tom Cunliffe
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 88
     published: 2011
@@ -944,7 +992,7 @@ entries:
     read: 2020-11-24
     title: The Consolation of Philosophy
     author: Boethius
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 524
@@ -958,7 +1006,7 @@ entries:
     read: 2020-11-07
     title: Cruising in Seraffyn
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 98
     published: 1976
@@ -974,7 +1022,7 @@ entries:
     read: 2020-10-28
     title: The Essentials of Living Aboard a Boat
     author: Mark Nicholas
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 76
     published: 2005
@@ -988,7 +1036,7 @@ entries:
     read: 2020-10-22
     title: Existentialism Is a Humanism
     author: Jean-Paul Sartre
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 1946
@@ -1002,7 +1050,7 @@ entries:
     read: 2020-10-19
     title: The Boat of a Million Years
     author: Poul Anderson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 1989
@@ -1020,7 +1068,7 @@ entries:
     read: 2020-10-09
     title: A Replacement for Religion
     author: The School of Life
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2019
@@ -1034,7 +1082,7 @@ entries:
     read: 2020-10-08
     title: A Lit Fuse--The Provocative Life of Harlan Ellison
     author: Nat Segaloff
-    genre: biography
+    shelf: biography
     fiction: false
     rating: ~
     published: 2017
@@ -1048,7 +1096,7 @@ entries:
     read: 2020-09-29
     title: Beggars in Spain
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: 1991
@@ -1065,7 +1113,7 @@ entries:
     read: 2020-09-23
     title: Dawn
     author: Octavia E. Butler
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: 1987
@@ -1082,7 +1130,7 @@ entries:
     read: 2020-09-19
     title: Nova
     author: Samuel R. Delany
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: 1968
@@ -1101,7 +1149,7 @@ entries:
     read: 2020-09-13
     title: Noa Noa--The Tahitian Journal
     author: Paul Gauguin
-    genre: other
+    shelf: other
     fiction: false
     rating: ~
     published: 1901
@@ -1115,7 +1163,7 @@ entries:
     read: 2020-09-12
     title: The Moon and Sixpence
     author: Somerset Maugham
-    genre: literature
+    shelf: literature
     fiction: true
     rating: 99
     published: 1919
@@ -1129,7 +1177,7 @@ entries:
     read: 2020-09-12
     title: A Common Faith
     author: John Dewey
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 1934
@@ -1143,7 +1191,7 @@ entries:
     read: 2020-09-07
     title: Anxiety
     author: The School of Life
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2020
@@ -1157,7 +1205,7 @@ entries:
     read: 2020-08-22
     title: Diary of a Bookseller
     author: Shaun Bythell
-    genre: other
+    shelf: other
     fiction: false
     rating: ~
     published: 2017
@@ -1171,7 +1219,7 @@ entries:
     read: 2020-08-03
     title: On Confidence
     author: The School of Life
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2017
@@ -1185,7 +1233,7 @@ entries:
     read: 2020-08-02
     title: The Beast That Shouted Love at the Heart of the World
     author: Harlan Ellison
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: 1968
@@ -1199,7 +1247,7 @@ entries:
     read: 2020-07-28
     title: The Pi Man
     author: Alfred Bester
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: 1959
@@ -1213,7 +1261,7 @@ entries:
     read: 2020-07-28
     title: 1959
     author: Richard A. Lupoff
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1981
@@ -1229,7 +1277,7 @@ entries:
     read: 2020-07-28
     title: My Aunt Cora
     author: Richard A. Lupoff
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1981
@@ -1245,7 +1293,7 @@ entries:
     read: 2020-07-28
     title: Digital Minimalism
     author: Cal Newport
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2019
@@ -1259,7 +1307,7 @@ entries:
     read: 2020-07-22
     title: Getting Stiffed
     author: Harlan Ellison
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1972
@@ -1273,7 +1321,7 @@ entries:
     read: 2020-07-22
     title: A Time for Daring
     author: Harlan Ellison
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1967
@@ -1287,7 +1335,7 @@ entries:
     read: 2020-07-22
     title: School for Apprentice Sorcerors
     author: Harlan Ellison
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1969
@@ -1303,7 +1351,7 @@ entries:
     read: 2020-07-20
     title: Fountain of Age
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: 2007
@@ -1319,7 +1367,7 @@ entries:
     read: 2020-07-19
     title: Ellison on Ellison
     author: Harlan Ellison
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1973
@@ -1333,7 +1381,7 @@ entries:
     read: 2020-07-19
     title: Harlan Ellison and the Formula Story
     author: Joseph Patrouch Jr.
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1978
@@ -1348,7 +1396,7 @@ entries:
     read: 2020-07-19
     title: 7,000 More Words about Harlan Ellision
     author: David Gerrold
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1978
@@ -1362,7 +1410,7 @@ entries:
     read: 2020-07-18
     title: The Jet-Propelled Birdbath
     author: Robert Silverberg
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1967
@@ -1376,7 +1424,7 @@ entries:
     read: 2020-07-17
     title: Harlan Ellison
     author: Ted White
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1967
@@ -1390,7 +1438,7 @@ entries:
     read: 2020-07-16
     title: The Essense of Ellison
     author: Lee Hoffman
-    genre: scifi
+    shelf: scifi
     fiction: false
     rating: ~
     published: 1967
@@ -1404,7 +1452,7 @@ entries:
     read: 2020-07-14
     title: Safe Guard
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: 2007
@@ -1419,7 +1467,7 @@ entries:
     read: 2020-07-13
     title: Buy, Outfit & Sail
     author: Cap’n Fatty Goodlander
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 86
     published: 2011
@@ -1433,7 +1481,7 @@ entries:
     read: 2020-07-12
     title: Deep Work
     author: Cal Newport
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2016
@@ -1447,7 +1495,7 @@ entries:
     read: 2020-07-05
     title: Images of Anna
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: 2009
@@ -1462,7 +1510,7 @@ entries:
     read: 2020-07-05
     title: End Game
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: 2007
@@ -1477,7 +1525,7 @@ entries:
     read: 2020-07-04
     title: Autobiography
     author: Nancy Kress
-    genre: autobiography
+    shelf: autobiography
     fiction: false
     rating: ~
     published: 2004
@@ -1491,7 +1539,7 @@ entries:
     read: 2020-07-04
     title: First Rites
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 2008
@@ -1507,7 +1555,7 @@ entries:
     read: 2020-06-18
     title: You Can't Blow Home
     author: Herb Payson
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 92
     published: 1984
@@ -1523,7 +1571,7 @@ entries:
     read: 2020-05-25
     title: South From Alaska
     author: Mike Litzow
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 90
     published: 2011
@@ -1541,7 +1589,7 @@ entries:
     read: 2020-05-11
     title: The Funeral
     author: Kate Wilhelm
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: 1972
@@ -1557,7 +1605,7 @@ entries:
     read: 2020-05-06
     title: By Fools Like Me
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 2007
@@ -1573,7 +1621,7 @@ entries:
     read: 2020-05-05
     title: The Kindness of Strangers
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: 2008
@@ -1589,7 +1637,7 @@ entries:
     read: 2020-05-04
     title: The Erdmann Nexus
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: 2008
@@ -1605,7 +1653,7 @@ entries:
     read: 2020-05-02
     title: The 10:00 Report is Brought to You By...
     author: Edward Bryant
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 65
     published: 1972
@@ -1619,7 +1667,7 @@ entries:
     read: 2020-04-28
     title: A Voice From the Main Deck
     author: Samuel Leech
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 83
     published: 1843
@@ -1636,7 +1684,7 @@ entries:
     read: 2020-04-26
     title: King of the Hill
     author: Chad Oliver
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: 1972
@@ -1653,7 +1701,7 @@ entries:
     read: 2020-04-26
     title: Time Travel for Pedestrians
     author: Ray Nelson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: 1972
@@ -1669,7 +1717,7 @@ entries:
     read: 2020-04-26
     title: Mathoms from the Time Closet
     author: Gene Wolfe
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 71
     published: 1972
@@ -1684,7 +1732,7 @@ entries:
     read: 2020-04-25
     title: Philosophy of Sailing
     author: Christian Williams
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 93
     published: 2018
@@ -1700,7 +1748,7 @@ entries:
     read: 2020-04-24
     title: Swell
     author: Liz Clark
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 82
     published: 2018
@@ -1717,7 +1765,7 @@ entries:
     read: 2020-04-17
     title: Blown Away
     author: Herb Payson
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 96
     published: 1980
@@ -1734,7 +1782,7 @@ entries:
     read: 2020-03-27
     title: "Characters Great and Small in SF: Sisters"
     author: Greg Bear
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1996
@@ -1749,7 +1797,7 @@ entries:
     read: 2020-03-27
     title: Sisters
     author: Greg Bear
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: 1989
@@ -1765,7 +1813,7 @@ entries:
     read: 2020-03-25
     title: Making Monsters
     author: James Patrick Kelly
-    genre: on_writing
+    shelf: on_writing
     fiction: false
     rating: ~
     published: 1996
@@ -1781,7 +1829,7 @@ entries:
     read: 2020-03-24
     title: Monsters
     author: James Patrick Kelly
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: 1992
@@ -1798,7 +1846,7 @@ entries:
     read: 2020-03-18
     title: When Breath Becomes Air
     author: Paul Kalanithi
-    genre: autobiography
+    shelf: autobiography
     fiction: false
     rating: 85
     published: 2016
@@ -1815,7 +1863,7 @@ entries:
     read: 2020-02-10
     title: Seraffyn's Mediterranean Adventure
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 82
     published: 1981
@@ -1831,7 +1879,7 @@ entries:
     read: 2020-02-02
     title: Seraffyn's European Adventure
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 91
     published: 1979
@@ -1847,7 +1895,7 @@ entries:
     read: 2020-01-06
     title: Two on a Big Ocean
     author: Hal Roth
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 82
     published: 1972
@@ -1864,7 +1912,7 @@ entries:
     read: 2019-12-20
     title: Airborne
     author: William F. Buckley
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 94
     published: 1970
@@ -1881,7 +1929,7 @@ entries:
     read: 2019-12-11
     title: Being Human
     author: Edward G Kratz
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 73
     published: 2019
@@ -1895,7 +1943,7 @@ entries:
     read: 2019-12-11
     title: Bot and Paid For
     author: Anatoly Belilovsky
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: 2019
@@ -1909,7 +1957,7 @@ entries:
     read: 2019-12-11
     title: The Diplomats
     author: Tom Jolly
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: 2019
@@ -1923,7 +1971,7 @@ entries:
     read: 2019-12-09
     title: The Ghost Ship Anastasia
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -1937,7 +1985,7 @@ entries:
     read: 2019-12-08
     title: Meshed
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: ~
@@ -1951,7 +1999,7 @@ entries:
     read: 2019-12-08
     title: Extraction Request
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -1965,7 +2013,7 @@ entries:
     read: 2019-12-08
     title: You Make Pattaya
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -1979,7 +2027,7 @@ entries:
     read: 2019-12-06
     title: Lingering
     author: Christopher Stanley
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: 2019
@@ -1993,7 +2041,7 @@ entries:
     read: 2019-12-05
     title: Such Thoughts Are Unproductive
     author: Rebecca Campbell
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: 2019
@@ -2007,7 +2055,7 @@ entries:
     read: 2019-12-05
     title: The Thing About Heisenbal
     author: Stewart C Baker
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 79
     published: 2019
@@ -2021,7 +2069,7 @@ entries:
     read: 2019-12-04
     title: Eternity Ltd.
     author: Carole de Monclin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: 2019
@@ -2035,7 +2083,7 @@ entries:
     read: 2019-12-04
     title: Tenure
     author: Andy Tubbesing
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: 2019
@@ -2049,7 +2097,7 @@ entries:
     read: 2019-12-04
     title: A Bad Day in Utopia
     author: Matthew Baker
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: 2019
@@ -2063,7 +2111,7 @@ entries:
     read: 2019-12-02
     title: Motherhood
     author: Pat Murphy
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 70
     published: 2019
@@ -2077,7 +2125,7 @@ entries:
     read: 2019-12-02
     title: Njuzu
     author: T. L. Huchu
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 72
     published: 2018
@@ -2091,7 +2139,7 @@ entries:
     read: 2019-12-02
     title: Today is Today
     author: Rick Wilber
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 2018
@@ -2105,7 +2153,7 @@ entries:
     read: 2019-12-01
     title: Chrysalis
     author: Will Shadbolt
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 70
     published: 2019
@@ -2119,7 +2167,7 @@ entries:
     read: 2019-12-01
     title: The Prince of Space
     author: Jack Williamson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 1931
@@ -2133,7 +2181,7 @@ entries:
     read: 2019-11-26
     title: The Rec Field
     author: Bill Pronzini
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: 1980
@@ -2147,7 +2195,7 @@ entries:
     read: 2019-11-26
     title: A Lingering Scent of Jasmine
     author: Pat Murphy
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: 1980
@@ -2161,7 +2209,7 @@ entries:
     read: 2019-11-24
     title: The Star Stealers
     author: Edmund Hamilton
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 1929
@@ -2175,7 +2223,7 @@ entries:
     read: 2019-11-22
     title: Telecorp
     author: Kelly Kurtzhals Geiger
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -2189,7 +2237,7 @@ entries:
     read: 2019-11-21
     title: Alien Realization
     author: Bruce Boston
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 71
     published: ~
@@ -2203,7 +2251,7 @@ entries:
     read: 2019-11-20
     title: The Sky Didn't Load Today
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -2217,7 +2265,7 @@ entries:
     read: 2019-11-20
     title: Ghost Girl
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -2231,7 +2279,7 @@ entries:
     read: 2019-11-19
     title: The Nineteenth Hour
     author: Connor R. Smith
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -2245,7 +2293,7 @@ entries:
     read: 2019-11-18
     title: Every So Often
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -2259,7 +2307,7 @@ entries:
     read: 2019-11-18
     title: Atrophy
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -2273,7 +2321,7 @@ entries:
     read: 2019-11-17
     title: Who Calls Me Villain?
     author: John A. Corrick
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -2287,7 +2335,7 @@ entries:
     read: 2019-11-16
     title: The Wood for the Trees
     author: Leanne Frahm
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -2301,7 +2349,7 @@ entries:
     read: 2019-11-15
     title: When the world tilts
     author: Claire Leng
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -2315,7 +2363,7 @@ entries:
     read: 2019-11-15
     title: Kill the Umpire
     author: Steve DuBois
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -2329,7 +2377,7 @@ entries:
     read: 2019-11-13
     title: The Quarantine Nursery
     author: Aimee Ogden
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -2343,7 +2391,7 @@ entries:
     read: 2019-11-13
     title: The Movements of Other Star Fish
     author: Matt Dovey
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -2357,7 +2405,7 @@ entries:
     read: 2019-11-13
     title: Empty Box
     author: Allison Mulvihill
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -2371,7 +2419,7 @@ entries:
     read: 2019-11-13
     title: Solve for X
     author: Jay Cole
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 64
     published: ~
@@ -2385,7 +2433,7 @@ entries:
     read: 2019-11-13
     title: Follow Past Meridian
     author: Mark W. Tiedemann
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 75
     published: ~
@@ -2399,7 +2447,7 @@ entries:
     read: 2019-11-12
     title: Yamadori
     author: Stephen R. Wilk
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: ~
@@ -2413,7 +2461,7 @@ entries:
     read: 2019-11-12
     title: Sojourner
     author: Craig DeLancey
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 72
     published: ~
@@ -2427,7 +2475,7 @@ entries:
     read: 2019-11-12
     title: Auberon
     author: James S.A. Corey
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: ~
@@ -2441,7 +2489,7 @@ entries:
     read: 2019-11-12
     title: Binary
     author: Edward Ashton
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2455,7 +2503,7 @@ entries:
     read: 2019-11-11
     title: "+1"
     author: James Luke Worrad
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: ~
@@ -2469,7 +2517,7 @@ entries:
     read: 2019-11-11
     title: Wolves
     author: Edward Ashton
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2483,7 +2531,7 @@ entries:
     read: 2019-11-10
     title: Filaments of Hope
     author: Marissa Lingen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 68
     published: ~
@@ -2497,7 +2545,7 @@ entries:
     read: 2019-11-08
     title: Perfect Gun
     author: Elizabeth Bear
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -2511,7 +2559,7 @@ entries:
     read: 2019-11-08
     title: Eros Pratfalled Or Adrift in the Cosmos With Lasagna and Mary Steenburgen
     author: Adam-Troy Castro
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -2525,7 +2573,7 @@ entries:
     read: 2019-11-08
     title: Overburden
     author: Genevieve Valentine
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -2539,7 +2587,7 @@ entries:
     read: 2019-11-08
     title: Her Appetite His Heart
     author: Dominica Phetteplace
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -2553,7 +2601,7 @@ entries:
     read: 2019-11-08
     title: The Concubine's Heart
     author: Matthew Bright
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -2567,7 +2615,7 @@ entries:
     read: 2019-11-08
     title: All That Robot Shit
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: ~
@@ -2581,7 +2629,7 @@ entries:
     read: 2019-11-07
     title: In the Days of King Aris
     author: Martin Harrison-Smith
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: ~
@@ -2595,7 +2643,7 @@ entries:
     read: 2019-11-06
     title: Antarctica
     author: D.A. Xiaolin Spires
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 66
     published: ~
@@ -2609,7 +2657,7 @@ entries:
     read: 2019-11-06
     title: Before and After
     author: Alek Gearhart
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -2623,7 +2671,7 @@ entries:
     read: 2019-11-05
     title: The Spice of Life
     author: Alexandra Grunberg
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 56
     published: ~
@@ -2637,7 +2685,7 @@ entries:
     read: 2019-11-04
     title: Your Future is Pending
     author: Matthew Kressel
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: ~
@@ -2651,7 +2699,7 @@ entries:
     read: 2019-11-04
     title: The Death of Fire Station 10
     author: Ray Nayler
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -2665,7 +2713,7 @@ entries:
     read: 2019-11-03
     title: Revival
     author: WC Dunlap
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -2679,7 +2727,7 @@ entries:
     read: 2019-11-03
     title: Nesting Habits of Enceladan Jade Beetles
     author: Eli Brown
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -2693,7 +2741,7 @@ entries:
     read: 2019-11-02
     title: The Beasts We Want To Be
     author: Sam J. Miller
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 87
     published: ~
@@ -2707,7 +2755,7 @@ entries:
     read: 2019-11-01
     title: Rabbit
     author: Jeff Reynolds
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2721,7 +2769,7 @@ entries:
     read: 2019-10-31
     title: Song Xiuyun
     author: A Que
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2735,7 +2783,7 @@ entries:
     read: 2019-10-30
     title: National Center for the Preservation of Human Dignity
     author: Youha Nam
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2749,7 +2797,7 @@ entries:
     read: 2019-10-30
     title: An Arc of Lightnig Across the Eye of God
     author: P H Lee
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -2763,7 +2811,7 @@ entries:
     read: 2019-10-29
     title: All the Days We Can't Leave Behind
     author: Wendy Nikel
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2777,7 +2825,7 @@ entries:
     read: 2019-10-29
     title: The Singularity Loves You
     author: Jonathon Mast
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 57
     published: ~
@@ -2791,7 +2839,7 @@ entries:
     read: 2019-10-28
     title: Quantum Theory
     author: James Gunn
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -2805,7 +2853,7 @@ entries:
     read: 2019-10-28
     title: Inside the Body of Relatives
     author: Octavia Cade
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: ~
@@ -2819,7 +2867,7 @@ entries:
     read: 2019-10-28
     title: Cloud
     author: Michael Swanwick
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -2833,7 +2881,7 @@ entries:
     read: 2019-10-27
     title: The Disintegration Loops
     author: Ray Nayler
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 86
     published: ~
@@ -2847,7 +2895,7 @@ entries:
     read: 2019-10-27
     title: The Airwalker Comes to the City in Green
     author: Siobhan Carroll
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 66
     published: ~
@@ -2861,7 +2909,7 @@ entries:
     read: 2019-10-26
     title: Surfers at the End of Time
     author: Rudy Rucker and Marc Laidlaw
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -2875,7 +2923,7 @@ entries:
     read: 2019-10-25
     title: Lindsay and the Red City Blues
     author: Joe Haldeman
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -2889,7 +2937,7 @@ entries:
     read: 2019-10-25
     title: Weaving Light from Wounded Hearts
     author: J.W. Alden
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 64
     published: ~
@@ -2903,7 +2951,7 @@ entries:
     read: 2019-10-25
     title: Plot Holes
     author: Eric Margerum
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 69
     published: ~
@@ -2917,7 +2965,7 @@ entries:
     read: 2019-10-25
     title: 'Death for the Cure: A Comedy About Cancer'
     author: Larry Hodges
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 40
     published: ~
@@ -2931,7 +2979,7 @@ entries:
     read: 2019-10-24
     title: Feigenbaum Number
     author: Nancy Kress
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 99
     published: ~
@@ -2945,7 +2993,7 @@ entries:
     read: 2019-10-24
     title: 'Why Humans Can''t Write Fiction: A Review'
     author: Jon Lasser
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 66
     published: ~
@@ -2959,7 +3007,7 @@ entries:
     read: 2019-10-24
     title: Empire of the Moment
     author: Alexander Condie
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 72
     published: ~
@@ -2973,7 +3021,7 @@ entries:
     read: 2019-10-24
     title: We Who Flee the Sun
     author: Sean Patrick Hazlett
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 36
     published: ~
@@ -2987,7 +3035,7 @@ entries:
     read: 2019-10-23
     title: The Shapeshifter Unraveled
     author: S. Qiouyi Lu
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 66
     published: ~
@@ -3001,7 +3049,7 @@ entries:
     read: 2019-10-22
     title: We're Talking About Practice
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: ~
@@ -3015,7 +3063,7 @@ entries:
     read: 2019-10-14
     title: All Electric Ghosts
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -3029,7 +3077,7 @@ entries:
     read: 2019-10-13
     title: The Artifact
     author: Sherry Briggs
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -3043,7 +3091,7 @@ entries:
     read: 2019-10-08
     title: The Star-Filled Sea is Smooth Tonight
     author: Thomas F. Monteleone
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: ~
@@ -3057,7 +3105,7 @@ entries:
     read: 2019-09-28
     title: Bus Station
     author: William Earls
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -3071,7 +3119,7 @@ entries:
     read: 2019-09-28
     title: The Word Random Deliberately Repeated
     author: John Shirley
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -3085,7 +3133,7 @@ entries:
     read: 2019-09-28
     title: The Tear Drop
     author: Dvora Olmstead
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 70
     published: ~
@@ -3099,7 +3147,7 @@ entries:
     read: 2019-09-28
     title: Asclepius Has Paws
     author: Mildred Downey Broxon
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: ~
@@ -3113,7 +3161,7 @@ entries:
     read: 2019-09-27
     title: 'Everybody Loves: In Circular Motion'
     author: Mel Gilden
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -3127,7 +3175,7 @@ entries:
     read: 2019-09-26
     title: Road Map
     author: F. M. Busby
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -3141,7 +3189,7 @@ entries:
     read: 2019-09-01
     title: Chitai Heiki Koronbin
     author: David Moles
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 62
     published: ~
@@ -3155,7 +3203,7 @@ entries:
     read: 2019-08-31
     title: Old Paint
     author: Megan Lindholm
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: ~
@@ -3169,7 +3217,7 @@ entries:
     read: 2019-08-30
     title: What Did Tessimond Tell You?
     author: Adam Roberts
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -3183,7 +3231,7 @@ entries:
     read: 2019-08-29
     title: Astrophilia
     author: Carrie Vaughn
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -3197,7 +3245,7 @@ entries:
     read: 2019-08-28
     title: A Sea Vagabond's World
     author: Bernard Moitessier
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 91
     published: 1995
@@ -3215,7 +3263,7 @@ entries:
     read: 2019-08-26
     title: Blue Water Vagabond
     author: Dennis Puleston
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 84
     published: 1939
@@ -3232,7 +3280,7 @@ entries:
     read: 2019-08-08
     title: Sailing to the Edge of Time
     author: John Kretschmer
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 93
     published: 2018
@@ -3250,7 +3298,7 @@ entries:
     read: 2019-07-28
     title: Flirting with Mermaids
     author: John Kretschmer
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 95
     published: 1999
@@ -3268,7 +3316,7 @@ entries:
     read: 2019-07-15
     title: The Big Pat Boom
     author: Damon Knight
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -3282,7 +3330,7 @@ entries:
     read: 2019-07-15
     title: Semper Fi
     author: Damon Knight
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -3296,7 +3344,7 @@ entries:
     read: 2019-07-11
     title: Trekka Round the World
     author: John Guzzwell
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 87
     published: 1964
@@ -3314,7 +3362,7 @@ entries:
     read: 2019-07-10
     title: Division by Zero
     author: Ted Chiang
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -3328,7 +3376,7 @@ entries:
     read: 2019-06-18
     title: Understand
     author: Ted Chiang
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -3342,7 +3390,7 @@ entries:
     read: 2019-06-14
     title: Tiny Tango
     author: Judith Moffett
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -3356,7 +3404,7 @@ entries:
     read: 2019-06-13
     title: Tower of Babylon
     author: Ted Chiang
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: ~
@@ -3370,7 +3418,7 @@ entries:
     read: 2019-06-11
     title: The Intertidal Zone
     author: Rahul Kanakia
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 69
     published: ~
@@ -3384,7 +3432,7 @@ entries:
     read: 2019-06-10
     title: Not Only Who You Know
     author: Jay  O'Connell
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 74
     published: ~
@@ -3398,7 +3446,7 @@ entries:
     read: 2019-05-23
     title: Across Islands and Oceans
     author: James Baldwin
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 89
     published: 2012
@@ -3415,7 +3463,7 @@ entries:
     read: 2019-05-11
     title: Voyaging on a Small Income
     author: Annie Hill
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 95
     published: 1993
@@ -3432,7 +3480,7 @@ entries:
     read: 2019-04-25
     title: Taleisin's Tales
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 94
     published: 2016
@@ -3448,7 +3496,7 @@ entries:
     read: 2019-03-05
     title: Seraffyn's Oriental Adventure
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 96
     published: 1996
@@ -3465,7 +3513,7 @@ entries:
     read: 2019-01-26
     title: Cruising in Seraffyn
     author: Lin Pardey
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 98
     published: 1976
@@ -3481,7 +3529,7 @@ entries:
     read: 2019-01-04
     title: Tamales in Space and Other Phrases for the Beginning Speaker
     author: Gabriela Santiago
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -3495,7 +3543,7 @@ entries:
     read: 2019-01-04
     title: Human Pilots
     author: J. B. Park
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 79
     published: ~
@@ -3509,7 +3557,7 @@ entries:
     read: 2019-01-04
     title: These Constellations Will Be Yours
     author: Elaine Cuyegkeng
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -3523,7 +3571,7 @@ entries:
     read: 2018-12-12
     title: Quantum Coursework
     author: Marcus Holm
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 71
     published: ~
@@ -3537,7 +3585,7 @@ entries:
     read: 2018-12-11
     title: Demeter's Regard
     author: Deborah L. Davitt
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: ~
@@ -3551,7 +3599,7 @@ entries:
     read: 2018-12-11
     title: Floaters Can't Float
     author: Pip Coen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -3565,7 +3613,7 @@ entries:
     read: 2018-12-09
     title: Skychildren
     author: C.L. Kagmi
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: ~
@@ -3579,7 +3627,7 @@ entries:
     read: 2018-12-09
     title: White Dust
     author: Nathan Hillstrom
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 93
     published: ~
@@ -3593,7 +3641,7 @@ entries:
     read: 2018-12-07
     title: Entangled
     author: Lars H. Hoffmann
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -3607,7 +3655,7 @@ entries:
     read: 2018-12-07
     title: X and Y
     author: Lynn Kilmore
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -3621,7 +3669,7 @@ entries:
     read: 2018-12-05
     title: The Little Gods
     author: Jamie Wahls
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -3635,7 +3683,7 @@ entries:
     read: 2018-12-05
     title: Down and Out
     author: Ken Wharton
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: ~
@@ -3649,7 +3697,7 @@ entries:
     read: 2018-12-05
     title: Tav
     author: Dustin Kennedy
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: ~
@@ -3663,7 +3711,7 @@ entries:
     read: 2018-12-04
     title: All That Is Solid
     author: Chris Barnham
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 66
     published: ~
@@ -3677,7 +3725,7 @@ entries:
     read: 2018-12-04
     title: We Are Destroyers
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -3691,7 +3739,7 @@ entries:
     read: 2018-12-04
     title: TrashureIsland
     author: Rich Larson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 99
     published: ~
@@ -3705,7 +3753,7 @@ entries:
     read: 2018-12-04
     title: The Undertow Jackpot
     author: Karl El-Koura
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -3719,7 +3767,7 @@ entries:
     read: 2018-12-04
     title: They Breed Like Flies
     author: Jeff Walden
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: ~
@@ -3733,7 +3781,7 @@ entries:
     read: 2018-12-02
     title: Lord Randy My Son
     author: Joe L. Hensley
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 83
     published: ~
@@ -3747,7 +3795,7 @@ entries:
     read: 2018-12-02
     title: Intent to Occupy
     author: Ronald D. Ferguson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -3761,7 +3809,7 @@ entries:
     read: 2018-12-02
     title: The Law of Diminishing Returns
     author: Dominic Teague
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -3775,7 +3823,7 @@ entries:
     read: 2018-12-02
     title: Oelinium
     author: Steve Rodgers
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: ~
@@ -3789,7 +3837,7 @@ entries:
     read: 2018-12-02
     title: Crinkles
     author: Michael Ryder
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: ~
@@ -3803,7 +3851,7 @@ entries:
     read: 2018-12-02
     title: Seeds of War
     author: Tommi Virtanen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -3817,7 +3865,7 @@ entries:
     read: 2018-12-02
     title: Personal Trainer
     author: Meg Elison
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -3831,7 +3879,7 @@ entries:
     read: 2018-12-02
     title: Twiceborn
     author: C.L. Kagmi
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -3845,7 +3893,7 @@ entries:
     read: 2018-11-28
     title: The Jigsaw Man
     author: Larry Niven
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -3859,7 +3907,7 @@ entries:
     read: 2018-11-28
     title: The Man Who Went to the Moon—Twice
     author: Howard Rodman
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -3873,7 +3921,7 @@ entries:
     read: 2018-11-28
     title: Pregnancy as a Location in Space-Time
     author: David Ebenbach
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: ~
@@ -3887,7 +3935,7 @@ entries:
     read: 2018-11-28
     title: Theories of Flight
     author: Linda Nagata
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: ~
@@ -3901,7 +3949,7 @@ entries:
     read: 2018-11-28
     title: Incident at San Juan Bautista
     author: Ray Nayler
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -3915,7 +3963,7 @@ entries:
     read: 2018-11-28
     title: What I Am
     author: William Ledbetter
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 86
     published: ~
@@ -3929,7 +3977,7 @@ entries:
     read: 2018-11-27
     title: The Art of Failure
     author: Robert Dawson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 73
     published: 2016
@@ -3943,7 +3991,7 @@ entries:
     read: 2018-11-27
     title: Opportunities for Lost Children
     author: James Beamon
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2016
@@ -3957,7 +4005,7 @@ entries:
     read: 2018-11-27
     title: Mean and Clean
     author: Marie DesJardin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: 2016
@@ -3973,7 +4021,7 @@ entries:
     read: 2018-11-27
     title: Reflection
     author: Aaron Wright
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 72
     published: 2016
@@ -3987,7 +4035,7 @@ entries:
     read: 2018-11-27
     title: Gaia's Children
     author: Lawrence Buentello
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 65
     published: 2016
@@ -4001,7 +4049,7 @@ entries:
     read: 2018-11-24
     title: Evensong
     author: Lester del Rey
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 75
     published: ~
@@ -4015,7 +4063,7 @@ entries:
     read: 2018-10-04
     title: Exit Strategy
     author: Martha Wells
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2018
@@ -4029,7 +4077,7 @@ entries:
     read: 2018-09-29
     title: Rogue Protocol
     author: Martha Wells
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2018
@@ -4043,7 +4091,7 @@ entries:
     read: 2018-09-24
     title: Artificial Condition
     author: Martha Wells
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2018
@@ -4057,7 +4105,7 @@ entries:
     read: 2018-09-19
     title: All Systems Red
     author: Martha Wells
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 85
     published: 2018
@@ -4071,7 +4119,7 @@ entries:
     read: 2018-09-15
     title: The Path
     author: Michael Puett
-    genre: devotional
+    shelf: devotional
     fiction: false
     rating: ~
     published: 2016
@@ -4085,7 +4133,7 @@ entries:
     read: 2018-09-08
     title: Back at the Helm
     author: Arne Martensson, Helene Martensson
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 79
     published: 2010
@@ -4101,7 +4149,7 @@ entries:
     read: 2018-08-19
     title: Blue Water, Green Skipper
     author: Stuart Woods
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 88
     published: 1977
@@ -4118,7 +4166,7 @@ entries:
     read: 2018-05-15
     title: Windfall
     author: William F. Buckley
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 95
     published: 1992
@@ -4135,7 +4183,7 @@ entries:
     read: 2018-05-15
     title: An Embarrassment of Mangoes
     author: Ann Vanderhoof
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 92
     published: 2003
@@ -4153,7 +4201,7 @@ entries:
     read: 2018-04-23
     title: Sailing a Serious Ocean
     author: John Kretschmer
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 100
     published: 2013
@@ -4170,7 +4218,7 @@ entries:
     read: 2018-03-25
     title: Maiden Voyage
     author: Tania Aebi
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 92
     published: 1989
@@ -4187,7 +4235,7 @@ entries:
     read: 2018-03-25
     title: The Island
     author: Peter Watts
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 95
     published: ~
@@ -4201,7 +4249,7 @@ entries:
     read: 2018-03-25
     title: Utriusque Cosmi
     author: Robert Charles Wilson
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -4215,7 +4263,7 @@ entries:
     read: 2018-03-07
     title: Anna Karenina
     author: Leo Tolstoy
-    genre: literature
+    shelf: literature
     fiction: true
     rating: 100
     published: 1878
@@ -4229,7 +4277,7 @@ entries:
     read: 2018-02-07
     title: Alone in the Caribbean
     author: Frederic Abildgaard Fenger
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 89
     published: 1917
@@ -4247,7 +4295,7 @@ entries:
     read: 2018-01-25
     title: Star Diaries
     author: Stanislaw Lem
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -4261,7 +4309,7 @@ entries:
     read: 2018-01-20
     title: Solaris
     author: Stanislaw Lem
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: ~
@@ -4276,7 +4324,7 @@ entries:
     read: 2018-01-17
     title: The Futurological Congress
     author: Stanislaw Lem
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -4290,7 +4338,7 @@ entries:
     read: 2017-12-31
     title: The Frost Giant's Data
     author: Dan Abnett
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 73
     published: ~
@@ -4304,7 +4352,7 @@ entries:
     read: 2017-12-31
     title: A Temporary Embarrassment in Space Time
     author: Charlie Jane Anders
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 76
     published: ~
@@ -4318,7 +4366,7 @@ entries:
     read: 2017-12-31
     title: Maelstrom
     author: Kage Baker
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -4332,7 +4380,7 @@ entries:
     read: 2017-12-31
     title: Rememberance
     author: Stephen Baxter
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 91
     published: ~
@@ -4346,7 +4394,7 @@ entries:
     read: 2017-12-31
     title: Zen and the Art of Starship Maintainence
     author: Tobias Buckell
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: ~
@@ -4360,7 +4408,7 @@ entries:
     read: 2017-12-31
     title: Wakening Ouroboros
     author: Jack Campbell
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: ~
@@ -4374,7 +4422,7 @@ entries:
     read: 2017-12-31
     title: Unfamiliar Gods
     author: Adam-Troy Castro
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 80
     published: ~
@@ -4388,7 +4436,7 @@ entries:
     read: 2017-12-31
     title: The Deckhand The Nova Blade And The Thrice-Sung Song
     author: Becky Chambers
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -4402,7 +4450,7 @@ entries:
     read: 2017-12-31
     title: The Fish of Lijiang
     author: Qiufan Chen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -4416,7 +4464,7 @@ entries:
     read: 2017-12-31
     title: The Flower of Shazui
     author: Qiufan Chen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -4430,7 +4478,7 @@ entries:
     read: 2017-12-31
     title: The Year of the Rat
     author: Qiufan Chen
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 86
     published: ~
@@ -4444,7 +4492,7 @@ entries:
     read: 2017-12-31
     title: The Dragon That Flew Out of the Sun
     author: Aliette de Bodard
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 81
     published: ~
@@ -4458,7 +4506,7 @@ entries:
     read: 2017-12-31
     title: Glory
     author: Greg Egan
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: ~
@@ -4472,7 +4520,7 @@ entries:
     read: 2017-12-31
     title: Our speciality is Xenogeology
     author: Alan Dean Foster
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 77
     published: ~
@@ -4486,7 +4534,7 @@ entries:
     read: 2017-12-31
     title: Inifinite Love Engine
     author: Joseph Allen Hill
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -4500,7 +4548,7 @@ entries:
     read: 2017-12-31
     title: The Universe Sung in Stars
     author: Kat Howard
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -4514,7 +4562,7 @@ entries:
     read: 2017-12-31
     title: Warped Passages
     author: Kameron Hurley
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 84
     published: ~
@@ -4528,7 +4576,7 @@ entries:
     read: 2017-12-31
     title: Tong Tong's Summer
     author: Xia Jia
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -4542,7 +4590,7 @@ entries:
     read: 2017-12-31
     title: A Hundred Ghosts Parade Tonight
     author: Xia Jia
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 86
     published: ~
@@ -4556,7 +4604,7 @@ entries:
     read: 2017-12-31
     title: The Sighted Watchmaker
     author: Vylar Kaftan
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -4570,7 +4618,7 @@ entries:
     read: 2017-12-31
     title: The Lathe of HEaven
     author: Ursula K. Le Guin
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 89
     published: ~
@@ -4584,7 +4632,7 @@ entries:
     read: 2017-12-31
     title: The Chameleon's Gloves
     author: Yoon Ha Lee
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 79
     published: ~
@@ -4598,7 +4646,7 @@ entries:
     read: 2017-12-31
     title: Death's End
     author: Cixin Liu
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 100
     published: ~
@@ -4612,7 +4660,7 @@ entries:
     read: 2017-12-31
     title: Three-Body Problem
     author: Cixin Liu
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 99
     published: ~
@@ -4626,7 +4674,7 @@ entries:
     read: 2017-12-31
     title: The Dark Forest
     author: Cixin Liu
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: ~
@@ -4640,7 +4688,7 @@ entries:
     read: 2017-12-31
     title: Bring the Kids and Revisit the Past at the Traveling Retro Funfair!
     author: Seanan McGuire
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 68
     published: ~
@@ -4654,7 +4702,7 @@ entries:
     read: 2017-12-31
     title: Who's Afraid of Wolf 359?
     author: Ken McLeod
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: ~
@@ -4668,7 +4716,7 @@ entries:
     read: 2017-12-31
     title: Diamond and the World Breaker
     author: Linda Nagata
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 71
     published: ~
@@ -4682,7 +4730,7 @@ entries:
     read: 2017-12-31
     title: Turquoise Days
     author: Alastair Reynolds
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 90
     published: ~
@@ -4696,7 +4744,7 @@ entries:
     read: 2017-12-31
     title: Diamond Dogs
     author: Alastair Reynolds
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: ~
@@ -4710,7 +4758,7 @@ entries:
     read: 2017-12-31
     title: Tomorrow When We See the Sun
     author: A. Merc Rustad
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 92
     published: ~
@@ -4724,7 +4772,7 @@ entries:
     read: 2017-12-31
     title: Golden Ring
     author: Karl Schroeder
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 94
     published: ~
@@ -4738,7 +4786,7 @@ entries:
     read: 2017-12-31
     title: The Emperor and the Maula
     author: Robert Silverberg
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 97
     published: ~
@@ -4752,7 +4800,7 @@ entries:
     read: 2017-12-31
     title: True Names
     author: Vernor Vinge
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 88
     published: ~
@@ -4766,7 +4814,7 @@ entries:
     read: 2017-12-31
     title: Seven Wonders of a Once and Future World
     author: Caroline M. Yoachim
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 99
     published: ~
@@ -4780,7 +4828,7 @@ entries:
     read: 2017-12-03
     title: The Long Way
     author: Bernard Moitessier
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 97
     published: 1971
@@ -4795,7 +4843,7 @@ entries:
     read: 2016-12-31
     title: A Closed and Common Orbit
     author: Becky Chambers
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 96
     published: ~
@@ -4809,7 +4857,7 @@ entries:
     read: 2016-12-31
     title: To Your Scattered Bodies Go
     author: Philip Jose Farmer
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 78
     published: ~
@@ -4823,7 +4871,7 @@ entries:
     read: 2016-12-31
     title: Rainbow's End
     author: Vernor Vinge
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 98
     published: ~
@@ -4837,7 +4885,7 @@ entries:
     read: 2016-12-31
     title: Bridge of Ashes
     author: Roger Zelazny
-    genre: scifi
+    shelf: scifi
     fiction: true
     rating: 82
     published: ~
@@ -4851,7 +4899,7 @@ entries:
     read: 2015-10-28
     title: Dove
     author: Robin Lee Graham
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 81
     published: 1972
@@ -4868,7 +4916,7 @@ entries:
     read: 2015-10-26
     title: One Girl, One Dream
     author: Laura Dekker
-    genre: sailing
+    shelf: sailing
     fiction: false
     rating: 84
     published: 2014

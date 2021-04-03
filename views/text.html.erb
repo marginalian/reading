@@ -13,6 +13,12 @@
   <div class="particulars">
     <div style="min-width: 2.7em;"></div>
     <table>
+      <% if entry["collection"] %>
+        <tr>
+          <td>from: </td>
+          <td><%= entry["collection"] %></td>
+        </tr>
+      <% end %>
       <tr>
         <td>read: </td>
         <td><%= entry["read"] %></td>

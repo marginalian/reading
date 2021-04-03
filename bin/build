@@ -3,7 +3,7 @@
 require 'fileutils'
 
 require_relative '../controllers/list_controller.rb'
-require_relative '../controllers/genre_controller.rb'
+require_relative '../controllers/shelf_controller.rb'
 require_relative '../controllers/index_controller.rb'
 require_relative '../controllers/timespan_controller.rb'
 
@@ -19,15 +19,15 @@ entries = YAML.load_file("./data.yml")["entries"]
 IndexController.new(entries).call
 ListController.new(entries).call
 
-# Genres
+# Shelves
 # ==============================================================================
 
-genres = %w(
+shelves = %w(
   scifi
   sailing
 )
 
-genres.map(&GenreController.method(:new)).each(&:call)
+shelves.map(&ShelfController.method(:new)).each(&:call)
 
 # Timespans
 # ==============================================================================

@@ -19,7 +19,7 @@
         <th>rating</th>
         <th>title</th>
         <th>author</th>
-        <th>genre</th>
+        <th>shelf</th>
       </tr>
     <% length = @list.entries.length %>
     <% @list.entries.each_with_index do |row, index| %>
@@ -33,7 +33,7 @@
         </td>
         <td><%= row["title"] %></td>
         <td><%= row["author"] %></td>
-        <td><%= row["genre"] %></td>
+        <td><%= row["shelf"] %></td>
       </tr>
     <% end %>
     </table>
