@@ -13,6 +13,39 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1617682187
+    read: 2021-04-05
+    title: In the Barn
+    author: Piers Anthony
+    shelf: scifi
+    fiction: true
+    rating: 92
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: novelette
+    format: digital
+    link: ~
+    tags:
+      - grotesque
+      - veganism
+      - multiverse
+
+  - id: 1617682186
+    read: 2021-04-05
+    title: Soundless Evening
+    author: Lee Hoffman
+    shelf: scifi
+    fiction: true
+    rating: 83
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - overpopulation
+      - population-control
+
   - id: 1617459536
     read: 2021-04-03
     title: With a Finger in My I
