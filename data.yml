@@ -13,6 +13,55 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1617806944
+    read: 2021-04-07
+    title: Bed Sheets Are White
+    author: Evelyn Lief
+    shelf: scifi
+    fiction: true
+    rating: 80
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - authoriatarianism
+
+  - id: 1617806943
+    read: 2021-04-06
+    title: And the Sea Like Mirrors
+    author: Gregory Benford
+    shelf: scifi
+    fiction: true
+    rating: 95
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - aliens
+      - oceans
+      - survival
+
+  - id: 1617806942
+    read: 2021-04-06
+    title: The Test-Tube Creature, Afterward
+    author: Joan Bernott
+    shelf: scifi
+    fiction: true
+    rating: 91
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - subtle
+      - genetic-engineeing
+      - pets
+
   - id: 1617682187
     read: 2021-04-05
     title: In the Barn
