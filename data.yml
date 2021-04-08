@@ -13,6 +13,22 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1617896069
+    read: 2021-04-08
+    title: Tissue
+    author: James Sallis
+    shelf: scifi
+    fiction: true
+    rating: 89
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - experimental
+      - consumerism
+
   - id: 1617806944
     read: 2021-04-07
     title: Bed Sheets Are White
