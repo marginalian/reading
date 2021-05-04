@@ -13,6 +13,191 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1620136422
+    read: 2021-05-04
+    title: Lamia Mutable
+    author: M. John Harrison
+    shelf: scifi
+    fiction: true
+    rating: 93
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - prismatic
+
+  - id: 1620136305
+    read: 2021-05-02
+    title: Things Lost
+    author: Thomas M. Disch
+    shelf: scifi
+    fiction: true
+    rating: 94
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - generation_ship
+      - immortality
+
+  - id: 1620136244
+    read: 2021-05-01
+    title: Totenbuch
+    author: A. Parra (y Figueredo)
+    shelf: scifi
+    fiction: true
+    rating: 70
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - experimental
+
+  - id: 1620136192
+    read: 2021-04-30
+    title: Getting Along
+    author: James Blish and Judith Ann Lawrence
+    shelf: scifi
+    fiction: true
+    rating: 79
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1620136096
+    read: 2021-04-29
+    title: A Mouse in the Walls of the Global Village
+    author: Dean R. Koontz
+    shelf: scifi
+    fiction: true
+    rating: 86
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - empaths
+      - globalization
+
+  - id: 1620136060
+    read: 2021-04-28
+    title: Zero Gee
+    author: Ben Bova
+    shelf: scifi
+    fiction: true
+    rating: 89
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - astronauts
+      - space_station
+
+  - id: 1620135985
+    read: 2021-04-27
+    title: In Re Glover
+    author: Leonard Tushnet
+    shelf: scifi
+    fiction: true
+    rating: 80
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - cryogenics
+
+  - id: 1619444946
+    read: 2021-04-26
+    title: Moth Race
+    author: Richard Hill
+    shelf: scifi
+    fiction: true
+    rating: 93
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - utopia
+      - medication
+
+  - id: 1619444851
+    read: 2021-04-26
+    title: Eye of the Beholder
+    author: Burt K. Filer
+    shelf: scifi
+    fiction: true
+    rating: 97
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - art
+      - math
+
+  - id: 1619444793
+    read: 2021-04-20
+    title: Epiphany for Aliens
+    author: Devid Kerr
+    shelf: scifi
+    fiction: true
+    rating: 86
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1619444707
+    read: 2021-04-14
+    title: Chuck Berry, Won't You Please Come Home
+    author: Ken McCullough
+    shelf: scifi
+    fiction: true
+    rating: 85
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - experimental
+
+  - id: 1618239466
+    read: 2021-04-12
+    title: Elouise and the Doctors of the Planet Pergamon
+    author: Josephine Saxton
+    shelf: scifi
+    fiction: true
+    rating: 84
+    published: 1972
+    collection: Again, Dangerous Visions
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - medicine
+      - sickness
+      - normalcy
+
   - id: 1617896069
     read: 2021-04-08
     title: Tissue
