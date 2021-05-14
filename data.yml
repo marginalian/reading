@@ -13,6 +13,68 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1620998056
+    read: 2021-05-13
+    title: A Star for Every Word Unspoken
+    author: Kai Hudson
+    shelf: scifi
+    fiction: true
+    rating: 90
+    published: 2021
+    collection: Clarkesworld Magazine Issue 176
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - flashbacks
+      - FTL
+      - space
+
+  - id: 1620998004
+    read: 2021-05-13
+    title: Spore
+    author: Tang Fei
+    shelf: scifi
+    fiction: true
+    rating: 80
+    published: 2021
+    collection: Clarkesworld Magazine Issue 176
+    type: short_story
+    format: digital
+    link: ~
+    tags:
+      - AI
+      - androids
+      - tattoos
+
+  - id: 1620997937
+    read: 2021-05-12
+    title: Dancing with Ereshkigal
+    author: Sameem Siddiqui
+    shelf: scifi
+    fiction: true
+    rating: 78
+    published: 2021
+    collection: Clarkesworld Magazine Issue 176
+    type: short_story
+    format: digital
+    link: ~
+    tags: ~
+
+  - id: 1620997932
+    read: 2021-05-11
+    title: Vanishing Point
+    author: Robert V.S. Redick
+    shelf: scifi
+    fiction: true
+    rating: 92
+    published: 2021
+    collection: Clarkesworld Magazine Issue 176
+    type: novelette
+    format: digital
+    link: ~
+    tags: ~
+
   - id: 1620689067
     read: 2021-05-10
     title: The Force Exerted on the Mass of a Body
