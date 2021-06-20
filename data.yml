@@ -13,6 +13,34 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1624214355
+    read: 2021-06-20
+    title: "Ape: v., To Imitate; Mimic"
+    author: Daniel Kozuh
+    shelf: scifi
+    fiction: true
+    rating: 69
+    published: 2021
+    collection: Infinite Worlds 7
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1624214344
+    read: 2021-06-20
+    title: Anysia
+    author: Adele Gardner
+    shelf: scifi
+    fiction: true
+    rating: 65
+    published: 2021
+    collection: Infinite Worlds 7
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1620998056
     read: 2021-05-13
     title: A Star for Every Word Unspoken

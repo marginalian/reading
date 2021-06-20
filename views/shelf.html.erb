@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= render_partial "shared/head" %>
+  <%= render_partial "shared/_head" %>
 </head>
 <body>
-  <main class="page">
-    <%= render_partial "shared/_header", page: @shelf.name %>
+  <%= render_partial "shared/_header", page: @shelf.name %>
 
+  <main>
     <h1>Shelf: <%= @shelf.name %></h1>
 
-    <div class="stats">
-      <div class="stat-box">
-        <div class="stat">
-          <%= @shelf.count%>
-        </div>
-        <div class="stat-caption">
-          total read
-        </div>
-      </div>
+    <p>
+      <strong><%= @shelf.count %></strong>
+      total read
+    </p>
 
-      <div class="stat-box">
-        <div class="stat">
-          <%= @shelf.percentage %>%
-        </div>
-        <div class="stat-caption">
-          of all reading
-        </div>
-      </div>
-    </div>
+    <p>
+      <strong><%= @shelf.percentage %>%</strong>
+      of all reading
+    </p>
+
+    <hr />
 
     <%= render_partial "shared/_type_percentages", type_percentages: @shelf.type_percentages, type_counts: @shelf.type_counts %>
 
-    <br />
-    <br />
+    <hr />
 
     <% @shelf.entries_by_rating.each do |entry| %>
-      <%= render_partial "text", { entry: entry } %>
+      <%= render_partial "shared/_text", { entry: entry } %>
     <% end %>
   </main>
 </body>

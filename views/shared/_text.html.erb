@@ -1,0 +1,38 @@
+<section>
+  <div>
+    <% if (entry["rating"]&.to_i || 0) > 95 %>
+      <strong><mark><%= entry["rating"] %></mark></strong>
+    <% elsif (entry["rating"]&.to_i || 0) > 90 %>
+      <strong><%= entry["rating"] %></strong>
+    <% else entry["rating"] %>
+      <%= entry["rating"] || "n/a" %>
+    <% end %>
+
+    <span>&ndash; <strong><%= entry["title"] %></strong> by <%= entry["author"] %></span>
+  </div>
+  <br />
+  <table>
+    <% if entry["collection"] %>
+      <tr>
+        <td>from: </td>
+        <td><%= entry["collection"] %></td>
+      </tr>
+    <% end %>
+    <tr>
+      <td>read: </td>
+      <td><%= entry["read"] %></td>
+    </tr>
+    <tr>
+      <td>pub: </td>
+      <td><%= entry["published"] || "-" %></td>
+    </tr>
+    <tr>
+      <td>type: </td>
+      <td><%= entry["type"].gsub("_", " ") %></td>
+    </tr>
+    <tr>
+      <td>tags: </td>
+      <td><%= entry["tags"]&.length&.positive? ? entry["tags"].join(", ") : "-" %></td>
+    </tr>
+  </table>
+</section>

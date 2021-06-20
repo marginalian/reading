@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= render_partial "shared/head" %>
+  <%= render_partial "shared/_head" %>
 </head>
 <body>
-  <main class="page">
-    <%= render_partial "shared/_header", page: "index" %>
-    <h1>
-      reading log
-    </h1>
+  <%= render_partial "shared/_header", page: "index" %>
+  <main>
+    <h1>Reading Log</h1>
 
-    <br />
-    <br />
-
-    <div>
+    <p>
       <strong><%= @index.count %></strong>
-      &nbsp; 
       texts read
-    </div>
+    </p>
 
-    <%= render_partial "shared/_divider" %>
+    <hr />
 
     <%= render_partial "shared/_type_percentages", type_percentages: @index.type_percentages, type_counts: @index.type_counts %>
 
-    <%= render_partial "shared/_divider" %>
+    <hr />
     
-    Months:
-    <br />
-    <br />
+    <strong>Months:</strong>
+    <ul>
     <% (Date.parse("2020-12-01")..Date.today).map{ |d| d.strftime("%Y-%m") }.uniq.reverse.each do |month| %>
-      <div class="nav-item">-  <a href="./<%= month %>.html"><%= month %></a></div>
+      <li><a href="./<%= month %>.html"><%= month %></a></li>
     <% end %>
+    </ul>
 
-    <%= render_partial "shared/_divider" %>
+    <hr />
 
     <blockquote>
       <p>
@@ -41,9 +35,8 @@
         the condensation; and I also kept them in my kitchen, which made it out 
         of the question to use certain strong-smelling foodstuffs.
       </p>
-      
-      <p>-- Jacques Bonnet</p>
     </blockquote>
+    <p>&mdash; Jacques Bonnet</p>
   </main>
 </body>
 </html>

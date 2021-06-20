@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= render_partial "shared/head" %>
+  <%= render_partial "shared/_head" %>
 </head>
 <body>
-  <main class="page">
-    <%= render_partial "shared/_header", page: @timespan.name %>
+  <%= render_partial "shared/_header", page: @timespan.name %>
 
+  <main>
     <h1><%= @timespan.name.capitalize %> in Review</h1>
 
-    <div class="stats">
-      <div class="stat-box">
-        <div class="stat">
-          <%= @timespan.count%>
-        </div>
-        <div class="stat-caption">
-          total read
-        </div>
-      </div>
+    <p>
+      <strong><%= @timespan.count %></strong>
+      texts read
+    </p>
 
-      <div class="stat-box">
-        <div class="stat">
-          <%= @timespan.hundos %>
-        </div>
-        <div class="stat-caption">
-          rated a perfect 100
-        </div>
-      </div>
-    </div>
+    <p>
+      <strong><%= @timespan.hundos %></strong>
+      rated a perfect 100
+    </p>
+
+    <hr />
 
     <%= render_partial "shared/_type_percentages", type_percentages: @timespan.type_percentages, type_counts: @timespan.type_counts %>
 
-    <br />
-    <br />
+    <hr />
 
     <% @timespan.entries_by_rating.each do |entry| %>
-      <%= render_partial "text", { entry: entry } %>
+      <%= render_partial "shared/_text", { entry: entry } %>
     <% end %>
   </main>
 </body>

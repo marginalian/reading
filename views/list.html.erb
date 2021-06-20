@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= render_partial "shared/head" %>
+  <%= render_partial "shared/_head" %>
 </head>
 <body>
-  <main class="list">
-    <%= render_partial "shared/_header", page: "list" %>
+  <%= render_partial "shared/_header", page: "list" %>
 
+  <article>
     <h1>All</h1>
-
-    <br />
-    <br />
 
     <table>
       <tr>
-        <th class="right">#</th>
+        <th align="right">#</th>
         <th>read</th>
         <th>rating</th>
         <th>title</th>
@@ -24,12 +21,16 @@
     <% length = @list.entries.length %>
     <% @list.entries.each_with_index do |row, index| %>
       <tr>
-        <td class="right"><%= length - index %></td>
-        <td class="min"><%= row["read"] %></td>
-        <td>
-          <div class="rating <%= rating_class(row["rating"]) %>">
+        <td align="right"><%= length - index %></td>
+        <td><%= row["read"] %></td>
+        <td align="right">
+          <% if (row["rating"]&.to_i || 0) > 95 %>
+            <strong><mark><%= row["rating"] %></mark></strong>
+          <% elsif (row["rating"]&.to_i || 0) > 90 %>
+            <strong><%= row["rating"] %></strong>
+          <% else row["rating"] %>
             <%= row["rating"] || "--" %>
-          </div>
+          <% end %>
         </td>
         <td><%= row["title"] %></td>
         <td><%= row["author"] %></td>
@@ -37,6 +38,6 @@
       </tr>
     <% end %>
     </table>
-  </main>
+  </article>
 </body>
 </html>
