@@ -1,21 +1,21 @@
 module Helpers
   class All
-    def self.rating_class(rating)
+    def self.rating_group(rating)
       case rating
       when nil
-        "rating-null"
+        "n-a"
       when 98..100
-        "rating-98-100"
+        "98-100"
       when 90..97
-        "rating-90-97"
+        "90-97"
       when 80..89
-        "rating-80-89"
+        "80-89"
       when 70..79
-        "rating-70-79"
+        "70-79"
       when 0..69
-        "rating-0-69"
+        "0-69"
       else
-        ""
+        "n-a"
       end
     end
 

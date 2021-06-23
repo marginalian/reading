@@ -12,8 +12,8 @@
     <table>
       <tr>
         <th align="right">#</th>
-        <th>read</th>
-        <th>rating</th>
+        <th align="center">read</th>
+        <th align="center">rating</th>
         <th>title</th>
         <th>author</th>
         <th>shelf</th>
@@ -22,15 +22,11 @@
     <% @list.entries.each_with_index do |row, index| %>
       <tr>
         <td align="right"><%= length - index %></td>
-        <td><%= row["read"] %></td>
-        <td align="right">
-          <% if (row["rating"]&.to_i || 0) > 95 %>
-            <strong><mark><%= row["rating"] %></mark></strong>
-          <% elsif (row["rating"]&.to_i || 0) > 90 %>
-            <strong><%= row["rating"] %></strong>
-          <% else row["rating"] %>
-            <%= row["rating"] || "--" %>
-          <% end %>
+        <td align="center"><%= row["read"] %></td>
+        <td align="center">
+          <mark data-rating="<%= rating_group(row['rating']) %>">
+            <%= row["rating"] || "n/a" %>
+          </mark>    
         </td>
         <td><%= row["title"] %></td>
         <td><%= row["author"] %></td>

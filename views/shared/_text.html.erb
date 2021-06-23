@@ -1,15 +1,8 @@
 <section>
-  <div>
-    <% if (entry["rating"]&.to_i || 0) > 95 %>
-      <strong><mark><%= entry["rating"] %></mark></strong>
-    <% elsif (entry["rating"]&.to_i || 0) > 90 %>
-      <strong><%= entry["rating"] %></strong>
-    <% else entry["rating"] %>
-      <%= entry["rating"] || "n/a" %>
-    <% end %>
-
-    <span>&ndash; <strong><%= entry["title"] %></strong> by <%= entry["author"] %></span>
-  </div>
+  <p>
+    <mark data-rating="<%= rating_group(entry['rating']) %>"><%= entry["rating"] || "n/a" %></mark>
+    <span>&nbsp;<strong><%= entry["title"] %></strong> by <%= entry["author"] %></span>
+  </p>
   <br />
   <table>
     <% if entry["collection"] %>

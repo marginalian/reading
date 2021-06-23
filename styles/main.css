@@ -65,10 +65,17 @@ section table tr:last-of-type {
 
 a {
   text-decoration: none;
+  color: RoyalBlue;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+p {
+  line-height: 1.5;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 h1 {
@@ -83,18 +90,49 @@ blockquote {
   margin-inline-end: 0;
 }
 
-mark {
-  background-color: Khaki;
-  padding: 0 3px;
-  border: 1px solid Khaki;
-  border-radius: 3px;
-}
-
 hr {
   height: 2px;
   padding: 0;
   margin: 24px 0;
   background-color: LightGray;
   border: 0;
+}
+
+mark {
+  padding: 1px 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+mark[data-rating="98-100"] {
+  background-color: Gold;
+  border-color: Gold;
+}
+
+mark[data-rating="90-97"] {
+  background-color: SandyBrown;
+  border-color: SandyBrown;
+}
+
+mark[data-rating="80-89"] {
+  background-color: LightCoral;
+  border-color: LightCoral;
+}
+
+mark[data-rating="70-79"] {
+  background-color: Plum;
+  border-color: Plum;
+}
+
+mark[data-rating="0-69"] {
+  background-color: LightSkyBlue;
+  border-color: LightSkyBlue;
+}
+
+mark[data-rating="n-a"] {
+  background-color: White;
+  border-color: Gray;
 }
 
