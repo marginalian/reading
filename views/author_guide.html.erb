@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render_partial "shared/_head" %>
+</head>
+<body>
+  <%= render_partial "shared/_header", page: "Author Guide - Scifi" %>
+
+  <main>
+    <h1>Author Guide - Scifi</h1>
+    
+    <% @author_guide.highest_rated_authors.each do |name, rating| %>
+      <mark data-rating="<%= rating_group(rating) %>">
+        <%= rating %>
+      </mark>    
+      &nbsp;
+      <%= name %>
+    <% end %>
+  </main>
+</body>
+</html>
