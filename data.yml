@@ -13,6 +13,83 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1625188424
+    read: 2021-07-01
+    title: Grail
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 92
+    published: 1981
+    collection: "Harlan 101: Encountering Ellison"
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1625151290
+    read: 2021-06-29
+    title: Out Fate, Told in Photons
+    author: K.W. Colyarn
+    shelf: scifi
+    fiction: true
+    rating: 89
+    published: 2021
+    collection: Clarkesworld 177
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - ftl
+
+  - id: 1625151289
+    read: 2021-06-28
+    title: Face Changing
+    author: Jiang Bo
+    shelf: scifi
+    fiction: true
+    rating: 83
+    published: 2021
+    collection: Clarkesworld 177
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - data
+
+  - id: 1625151287
+    read: 2021-06-26
+    title: Poubelle
+    author: Robert Reed
+    shelf: scifi
+    fiction: true
+    rating: 90
+    published: 2021
+    collection: Clarkesworld 177
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - immortality
+      - castes
+
+  - id: 1625151286
+    read: 2021-06-25
+    title: Little Animals
+    author: Nancy Kress
+    shelf: scifi
+    fiction: true
+    rating: 91
+    published: 2021
+    collection: Clarkesworld 177
+    type: short_story
+    format: physical
+    link: ~
+    tags:
+      - time
+      - avatars
+      - depression
+
   - id: 1624214355
     read: 2021-06-20
     title: "Ape: v., To Imitate; Mimic"
@@ -40,6 +117,24 @@ entries:
     format: physical
     link: ~
     tags: ~
+
+  - id: 1624214341
+    read: 2021-06-04
+    title: The Wedding Album
+    author: David Marusek
+    shelf: scifi
+    fiction: true
+    rating: 90
+    published: 1999
+    collection: The Year's Best Science Fiction 17
+    type: novella
+    format: digital
+    link: ~
+    tags:
+      - simulation
+      - computing
+      - regulation
+      - suicide
 
   - id: 1620998056
     read: 2021-05-13
