@@ -10,13 +10,17 @@ class AuthorGuide
       .group_by { |entry| entry["author"].strip }
       .map do |author, author_entries|
         ratings = author_entries.map { |entry| entry["rating"] }.compact
-        next [author, 0] if ratings.length == 0
+        next if ratings.length == 0
 
-        avg_rating = ratings.inject(:+) / ratings.length
-        [author, avg_rating]
+        {
+          name: author,
+          avg_rating: (ratings.inject(:+) / ratings.length),
+          count: ratings.length,
+        }
       end
-      .select { |name_and_rating| name_and_rating.last >= 85 }
-      .sort_by { |name_and_rating| name_and_rating.last }
+      .compact
+      .select { |author_info| author_info[:avg_rating] >= 85 }
+      .sort_by { |author_info| author_info[:avg_rating] }
       .reverse
   end
 

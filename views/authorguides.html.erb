@@ -7,20 +7,21 @@
   <%= render_partial "shared/_header", page: "Author Guide - Scifi" %>
 
   <main>
-    <h1>Author Guide - Scifi</h1>
+    <h1>Author Guide - Scifi 2</h1>
     
     <strong>Avg. Ratings by Author</strong>
     <br />
     <br />
     <br />
 
-    <% @author_guide.highest_rated_authors.each do |name, rating| %>
+    <% @author_guide.highest_rated_authors.each do |author_info| %>
       <p>
-        <mark data-rating="<%= rating_group(rating) %>">
-          <%= rating %>
-        </mark>    
+        <mark data-rating="<%= rating_group(author_info[:avg_rating]) %>">
+          <%= author_info[:avg_rating] %>
+        </mark>
         &nbsp;
-        <%= name %>
+        <%= author_info[:name] %>
+        (<%= author_info[:count] %>)
       </p>
       <hr />
     <% end %>

@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1625426633
+    read: 2021-07-04
+    title: The Man Who was Heavily into Revenge
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 88
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1625403394
     read: 2021-07-03
     title: All the Sounds of Fear
