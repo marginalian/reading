@@ -13,6 +13,90 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1626182962
+    read: 2021-07-13
+    title: First, There Was the Title
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 92
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1626182873
+    read: 2021-07-12
+    title: Toiling in the Dreamtime
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 89
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1626182826
+    read: 2021-07-11
+    title: "Mouthless in Gaza: A Literary Memoir"
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 88
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: essay
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1626182782
+    read: 2021-07-08
+    title: "How Interesting: A Tiny Man"
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 88
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1626182718
+    read: 2021-07-07
+    title: "Hindsight: 480 Seconds"
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 91
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
+  - id: 1625494476
+    read: 2021-07-05
+    title: Sensible City
+    author: Harlan Ellison
+    shelf: scifi
+    fiction: true
+    rating: 84
+    published: ~
+    collection: "Harlan 101: Encountering Ellison"
+    type: short_story
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1625426633
     read: 2021-07-04
     title: The Man Who was Heavily into Revenge
