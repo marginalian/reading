@@ -13,6 +13,20 @@
 # tags: array of strings
 ---
 entries:
+  - id: 1627424600
+    read: 2021-07-19
+    title: A Psalm for the Wild-Build
+    author: Becky Chambers
+    shelf: scifi
+    fiction: true
+    rating: 94
+    published: ~
+    collection: ~
+    type: novella
+    format: physical
+    link: ~
+    tags: ~
+
   - id: 1626182962
     read: 2021-07-13
     title: First, There Was the Title
